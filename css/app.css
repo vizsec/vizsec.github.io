@@ -7,7 +7,7 @@ body {
 }
 
 header h1 {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-size: 42px;
   font-weight: bold;
   line-height: 1;
@@ -18,7 +18,8 @@ header p {
 }
 
 section {
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -27,24 +28,20 @@ footer {
   margin: 20px 0px;
 }
 
+
 .navbar-fixed-top .brand {
-  padding-right: 0;
+  padding-right: 20px;
   padding-left: 0;
-  margin-left: 20px;
-  float: right;
+  margin-left: 10px;
   font-weight: bold;
-  color: #eee;
-  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
-  -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
+  color: #fff;
 }
 .navbar-fixed-top .brand:hover {
   text-decoration: none;
 }
 
 .page-header > h2 {
-  margin-bottom: -10px;
+  margin-bottom: -16px;
 }
 
 .dl-horizontal dt {
@@ -58,6 +55,9 @@ footer {
   body {
     padding-top: 0px;
   }
+  section {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -68,7 +68,7 @@ footer {
 
 @media (min-width: 480px) and (max-width: 768px) {
   header h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
@@ -77,6 +77,12 @@ footer {
     padding-top: 0;
   }
   header h1 {
-    font-size: 36px;
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1000px;
   }
 }
