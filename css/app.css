@@ -1,0 +1,82 @@
+body {
+  position: relative;
+  padding-top: 48px;
+  background-color: #fff;
+  margin: 0px 10px 20px;
+  font-size: 13px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1;
+}
+header p {
+  margin-bottom: 6px;
+  font-weight: 300;
+}
+
+section {
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 80%;
+  margin: 20px 0px;
+}
+
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #eee;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+.page-header > h2 {
+  margin-bottom: -10px;
+}
+
+.dl-horizontal dt {
+  width:165px;
+}
+.dl-horizontal dd {
+  margin-left:180px;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 0px;
+  }  
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  header h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+  body {
+    padding-top: 0;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+}
