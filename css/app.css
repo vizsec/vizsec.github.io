@@ -2,7 +2,6 @@ body {
   position: relative;
   padding-top: 48px;
   background-color: #fff;
-  font-size: 13px;
 }
 
 header h1 {
@@ -22,9 +21,15 @@ section {
 }
 
 footer {
-  text-align: center;
-  font-size: 80%;
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 70%;
+  color: #888;
+  margin-bottom: 0px;
 }
 
 .navbar-fixed-top .brand {
