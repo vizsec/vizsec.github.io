@@ -1,10 +1,12 @@
-JADE = $(shell find templates/*.jade)
-HTML = $(JADE:.jade=.html)
+JADE_SOURCE = $(shell find ./src/*.jade)
+HTML = $(JADE_SOURCE:.jade=.html)
+DEPLOY = ./deploy
+JADE = ./node_modules/jade/bin/jade
 
 all: $(HTML)
 
 %.html: %.jade
-	./node_modules/jade/bin/jade < $< > ./$(@F)
+	$(JADE) < $< > $(DEPLOY)/$(@F)
 
 clean:
 	rm -f $(HTML)

@@ -1,0 +1,12 @@
+# vizsec web site
+
+File structure 
+
+* source - source files, including jade templates and css, image and javascript assets
+* deploy - files to be put on the web server, compressed and minified
+
+To prepare source files for deployment you need to build the html files using [Jade](https://github.com/visionmedia/jade), which is already installed in the `node_modules` directory. To use it, you must have [Node.js](http://nodejs.org/) installed. The `Makefile` is set up to compile the jade templates in source into deploy, simply run the make command:
+
+    make
+    
+Currently, the assets are not set up to be compressed and copied to deploy, this needs to be done manually, using [uglify-js](https://github.com/mishoo/UglifyJS) or [YUI Compressor](http://developer.yahoo.com/yui/compressor/). This process can be automated with _Make_ or using a build script such as [HTML 5 Boilerplate build script](https://github.com/h5bp/node-build-script).

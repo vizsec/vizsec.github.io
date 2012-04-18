@@ -1,0 +1,125 @@
+body {
+  position: relative;
+  padding-top: 48px;
+  background-color: #fff;
+}
+
+header h1 {
+  margin-bottom: 6px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1;
+}
+header p {
+  margin-bottom: 6px;
+  font-weight: 300;
+}
+
+section {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 70%;
+  color: #888;
+  margin-bottom: 0px;
+}
+
+.navbar-fixed-top .brand {
+  padding-right: 20px;
+  padding-left: 0;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+.page-header > h2 {
+  margin-bottom: -16px;
+}
+
+.dl-horizontal dt {
+  width: 160px;
+}
+.dl-horizontal dd {
+  margin-left: 170px;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 0px;
+  }
+  body > .container {
+    padding-left: -10px;
+    padding-right: -10px;
+  }
+  section {
+    margin-top: 15px;
+  }
+  header h1 {
+    font-size: 24px;
+  }
+  header h1 small {
+    font-size: 11px;
+  }
+  .page-header > h2 {
+    border-bottom-color: #aaa;
+  }
+  .dl-horizontal dt {
+    width: 120px;
+  }
+  .dl-horizontal dd {
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 0px;
+  }
+  header h1 {
+    font-size: 26px;
+  }
+  header h1 small {
+    font-size: 13px;
+  }
+  .page-header > h2 {
+    border-bottom-color: #aaa;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  body {
+    padding-top: 0px;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+  header h1 small {
+    font-size: 15px;
+  }
+  .page-header > h2 {
+    border-bottom-color: #aaa;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+  body {
+    padding-top: 0;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  header h1 small {
+    font-size: 17px;
+  }
+}
