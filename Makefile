@@ -1,4 +1,4 @@
-JADE_SOURCE = $(shell find ./src/*.jade)
+JADE_SOURCE = $(shell find ./source/*.jade)
 HTML = $(JADE_SOURCE:.jade=.html)
 DEPLOY = ./deploy
 JADE = ./node_modules/jade/bin/jade
