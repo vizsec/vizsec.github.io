@@ -5,7 +5,7 @@ JSDIR = ./source/assets/js
 
 DEPLOY = ./deploy
 
-JADE = ./node_modules/.bin/jade
+JADE = ./node_modules/.bin/jade --path ./source/includes
 RECESS = ./node_modules/.bin/recess
 UGLIFY = ./node_modules/.bin/uglifyjs
 
