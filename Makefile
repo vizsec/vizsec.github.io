@@ -1,4 +1,4 @@
-JADE_SOURCE = $(shell find ./source/*.jade)
+JADE_SOURCE = $(shell find ./source/web/*.jade)
 HTML = $(JADE_SOURCE:.jade=.html)
 CSSDIR = ./source/assets/css
 JSDIR = ./source/assets/js
