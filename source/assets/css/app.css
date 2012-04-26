@@ -54,6 +54,9 @@ footer p {
   .hero-unit {
     padding: 15px;
   }
+  .hero-unit > h1 {
+    font-size: 40px;
+  }
   section {
     margin-top: 15px;
   }
@@ -71,6 +74,9 @@ footer p {
   }
   .hero-unit {
     padding: 25px;
+  }
+  .hero-unit > h1 {
+    font-size: 48px;
   }
   .page-header > h2 {
     border-bottom-color: #aaa;
