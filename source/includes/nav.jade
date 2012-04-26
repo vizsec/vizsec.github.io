@@ -5,7 +5,7 @@
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      a.brand(href='#{baseUrl}/') VizSec
+      a.brand(href='#{baseUrl}/') VizSec 
       .nav-collapse
         ul.nav
           li: a(href='#{baseUrl}/#cfp') Call for Papers
@@ -13,5 +13,13 @@
           li: a(href='#{baseUrl}/#dat') Dates
           li: a(href='#{baseUrl}/#hot') Hotel
           li: a(href='#{baseUrl}/#com') Committee
-          li: a(href='#{baseUrl}/past.html') Past Events
-          li: a(href='#{baseUrl}/about.html') About
+        ul.nav.pull-right
+          li: a(href='#{baseUrl}/past.html')
+            i.icon-calendar.icon-white
+            span &nbsp; Past Events
+          li: a(href='http://lists.vizsec.org/mailman/listinfo/info_lists.vizsec.org')
+            i.icon-envelope.icon-white
+            span &nbsp; Mailing List
+          li: a(href='#{baseUrl}/about.html')
+            i.icon-info-sign.icon-white
+            span &nbsp; About
