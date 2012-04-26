@@ -5,9 +5,9 @@ JSDIR = ./source/assets/js
 
 DEPLOY = ./deploy
 
-JADE = ./node_modules/.bin/jade --path ./source/includes
-RECESS = ./node_modules/.bin/recess
-UGLIFY = ./node_modules/.bin/uglifyjs
+JADE = ./node_modules/jade/bin/jade --path ./source/includes
+RECESS = ./node_modules/recess/bin/recess
+UGLIFY = ./node_modules/uglify-js/bin/uglifyjs
 
 all: $(HTML) css js
 
