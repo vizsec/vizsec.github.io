@@ -53,6 +53,9 @@ footer p {
 .dl-horizontal dd {
   margin-left: 170px;
 }
+dl dt {
+  padding-top: 6px;
+}
 
 @media (max-width: 480px) {
   body {
