@@ -1,0 +1,23 @@
+{
+  "name": "vizsec.org",
+  "version": "0.0.1",
+  "description": "vizsec.org web site",
+  "homepage": "http://vizsec.org/",
+  "author": "John Goodall <jgoodall@ornl.gov>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgoodall/vizsec-site"
+  },
+  "licenses": [
+    {
+      "type": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  ],
+  "devDependencies": {
+    "grunt": ">0.3"
+    "jade": ">=0.25.0",
+    "recess": ">1.0",
+    "uglify-js": ">1.2"
+  }
+}
