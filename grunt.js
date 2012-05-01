@@ -15,10 +15,28 @@ module.exports = function (grunt) {
     lint: {
       files: ['source/assets/*.js']
     },
+    copy: {
+      staticFiles: {
+        src: [ 'source/static/*'],
+        dest: 'deploy/'
+      },
+      img: {
+        src: [ 'source/assets/img/*'],
+        dest: 'deploy/img'
+      },
+      jquery: {
+        src : [ 'source/assets/js/jquery-1.7.2.min.js' ],
+        dest: 'deploy/js/'
+      },
+      files: {
+        src : [ 'source/files/vizsec2010/*', 'source/files/vizsec2011/*' ],
+        dest: 'deploy/files/'
+      }
+    },
     jade: {
-      'deploy': [ 'source/web/*jade' ],
-      'deploy/vizsec2010': [ 'source/web/vizsec2010/*jade' ],
-      'deploy/vizsec2011': [ 'source/web/vizsec2011/*jade' ]
+      'deploy': [ 'source/templates/*jade' ],
+      'deploy/vizsec2010': [ 'source/templates/vizsec2010/*jade' ],
+      'deploy/vizsec2011': [ 'source/templates/vizsec2011/*jade' ]
     },
     min: {
       app: {
@@ -60,14 +78,26 @@ module.exports = function (grunt) {
     },
     options: {
       jade: {
-        path: 'source/web/includes'
+        filename: 'source/includes/'
       }
     }
     
   });
 
   // Default task.
-  grunt.registerTask('default', 'lint jade min mincss');
+  grunt.registerTask('default', 'copy lint jade min mincss');
 
+  grunt.registerMultiTask('copy', 'Copy files to deployment directory', function() {
+    var path = require("path"),
+        files = grunt.file.expand(this.file.src),
+        dest = this.file.dest;
+
+    grunt.log.writeln('Copying files for ' + this.target + '.');
+        
+    files.forEach(function (file) {      
+      grunt.file.copy(file, path.join(dest, path.basename(file)), {noProcess: true});
+      grunt.log.writeln('File "' + file + '" copied to "' + dest + '".');
+    });
+  });
 
 };
