@@ -18,7 +18,6 @@
     "grunt": ">0.3",
     "grunt-contrib": ">=0.0.1",
     "jade": ">=0.25.0",
-    "recess": ">1.0",
-    "uglify-js": ">1.2"
+    "recess": ">1.0"
   }
 }
