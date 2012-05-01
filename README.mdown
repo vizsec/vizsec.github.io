@@ -5,10 +5,11 @@ File structure
 * source - source files, including jade templates and css, image and javascript assets
 * deploy - files to be put on the web server, compressed and minified
 
-To prepare source files for deployment you need to build the html files using [Jade](https://github.com/visionmedia/jade), which is already installed in the `node_modules` directory. To use it, you must have [Node.js](http://nodejs.org/) installed. The `Makefile` is set up to compile the jade templates in source into deploy. The `Makefile` will also concatenate the css into a single file and minify, and concatenate and minify the javascript (currently only bootstrap.js). Simply run the make command:
+To build the source files, you must have [Node.js](http://nodejs.org/) installed. Then install the required modules:
 
-    make
-
+    npm install -d
+    
+[Grunt](https://github.com/cowboy/grunt) is used as the build tool. This will compile the jade templates in source into deploy, as well as concatenate the css into a single file and minify, and concatenate and minify the javascript (currently only bootstrap.js). 
 
 # contact
 
