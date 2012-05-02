@@ -29,12 +29,18 @@ module.exports = function (grunt) {
         dest: 'deploy/js/'
       },
       files: {
-        src : [ 'source/files/vizsec2010/*', 'source/files/vizsec2011/*' ],
+        src : [ 
+          'source/files/vizsec2009/posters/*',
+          'source/files/vizsec2009/papers/*',
+          'source/files/vizsec2010/*',
+          'source/files/vizsec2011/*' 
+        ],
         dest: 'deploy/files/'
       }
     },
     jade: {
       'deploy': [ 'source/templates/*jade' ],
+      'deploy/vizsec2009': [ 'source/templates/vizsec2009/*jade' ],
       'deploy/vizsec2010': [ 'source/templates/vizsec2010/*jade' ],
       'deploy/vizsec2011': [ 'source/templates/vizsec2011/*jade' ]
     },
