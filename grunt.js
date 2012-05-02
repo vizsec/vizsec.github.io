@@ -84,10 +84,15 @@ module.exports = function (grunt) {
     
   });
 
-  // Default task.
-  grunt.registerTask('default', 'copy lint jade min mincss');
+  // Default task will be invoked when grunt is called without any argument
+  // run everything except copy
+  grunt.registerTask('default', 'jade mincss lint min');
 
-  grunt.registerMultiTask('copy', 'Copy files to deployment directory', function() {
+  // run everything
+  grunt.registerTask('all', 'jade mincss lint min copy');
+
+  // Copy is a separate task, since it does not need to be run as often
+  grunt.registerMultiTask('copy', 'Copy static files to deployment directory', function() {
     var path = require("path"),
         files = grunt.file.expand(this.file.src),
         dest = this.file.dest;
