@@ -28,18 +28,26 @@ module.exports = function (grunt) {
         src : [ 'source/assets/js/jquery-1.7.2.min.js' ],
         dest: 'deploy/js/'
       },
-      files: {
-        src : [ 
-          'source/files/vizsec2009/posters/*',
-          'source/files/vizsec2009/papers/*',
-          'source/files/vizsec2010/*',
-          'source/files/vizsec2011/*' 
-        ],
-        dest: 'deploy/files/'
+      f2011: {
+        src : [ 'source/files/vizsec2011/*' ],
+        dest: 'deploy/files/2011'
+      },
+      f2010: {
+        src : [ 'source/files/vizsec2010/*' ],
+        dest: 'deploy/files/2010'
+      },
+      f2009: {
+        src : [ 'source/files/vizsec2009/posters/*','source/files/vizsec2009/papers/*' ],
+        dest: 'deploy/files/2009'
+      },
+      f2008: {
+        src : [ 'source/files/vizsec2008/*' ],
+        dest: 'deploy/files/2008'
       }
     },
     jade: {
       'deploy': [ 'source/templates/*jade' ],
+      'deploy/vizsec2008': [ 'source/templates/vizsec2008/*jade' ],
       'deploy/vizsec2009': [ 'source/templates/vizsec2009/*jade' ],
       'deploy/vizsec2010': [ 'source/templates/vizsec2010/*jade' ],
       'deploy/vizsec2011': [ 'source/templates/vizsec2011/*jade' ]
@@ -61,6 +69,9 @@ module.exports = function (grunt) {
       files: '<config:lint.files>',
       tasks: 'lint'
     },
+    clean: [
+      'deploy'
+    ],
     jshint: {
       options: {
         curly: true,
@@ -96,6 +107,9 @@ module.exports = function (grunt) {
 
   // run everything
   grunt.registerTask('all', 'jade mincss lint min copy');
+
+  // clean deploy folder
+  grunt.registerTask('clean', 'clean');
 
   // Copy is a separate task, since it does not need to be run as often
   grunt.registerMultiTask('copy', 'Copy static files to deployment directory', function() {
