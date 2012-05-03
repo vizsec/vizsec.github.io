@@ -13,7 +13,7 @@ To build the source files, you must have [Node.js](http://nodejs.org/) installed
 
     ./node_modules/grunt/bin/grunt
     
-The root path for the size is set in the `source/includes/head.jade` in the variable `rootUrl`. To set this to the root of the server (i.e. the URL is /), set this to the empty string. To set the root of the web site to something else, set to the path without the trailing slash.
+The root path for the size is set in the `source/includes/variables.jade` in the variable `rootUrl`. To set this to the root of the server (i.e. the URL is /), set this to the empty string. To set the root of the web site to something else, set to the path without the trailing slash.
 
 
 # contact
