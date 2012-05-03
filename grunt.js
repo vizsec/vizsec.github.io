@@ -43,10 +43,20 @@ module.exports = function (grunt) {
       f2008: {
         src : [ 'source/files/vizsec2008/*' ],
         dest: 'deploy/files/2008'
+      },
+      f2007: {
+        src : [ 'source/files/vizsec2007/*' ],
+        dest: 'deploy/files/2007'
+      },
+      f2006: {
+        src : [ 'source/files/vizsec2006/*' ],
+        dest: 'deploy/files/2006'
       }
     },
     jade: {
       'deploy': [ 'source/templates/*jade' ],
+      'deploy/vizsec2006': [ 'source/templates/vizsec2006/*jade' ],
+      'deploy/vizsec2007': [ 'source/templates/vizsec2007/*jade' ],
       'deploy/vizsec2008': [ 'source/templates/vizsec2008/*jade' ],
       'deploy/vizsec2009': [ 'source/templates/vizsec2009/*jade' ],
       'deploy/vizsec2010': [ 'source/templates/vizsec2010/*jade' ],
