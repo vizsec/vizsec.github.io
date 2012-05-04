@@ -11,7 +11,7 @@ To build the source files, you must have [Node.js](http://nodejs.org/) installed
     
 [Grunt](https://github.com/cowboy/grunt) is used as the build tool. This will compile the jade templates in source into deploy, as well as concatenate the css into a single file and minify, and concatenate and minify the javascript (currently only bootstrap.js). To build the project:
 
-    ./node_modules/grunt/bin/grunt
+    ./node_modules/grunt/bin/grunt all
     
 The root path for the size is set in the `source/includes/variables.jade` in the variable `rootUrl`. To set this to the root of the server (i.e. the URL is /), set this to the empty string. To set the root of the web site to something else, set to the path without the trailing slash.
 
