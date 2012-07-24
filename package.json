@@ -16,7 +16,7 @@
   ]
 , "devDependencies": {
     "grunt": ">0.3"
-  , "grunt-contrib": ">=0.0.2"
+  , "grunt-contrib": "=0.0.7"
   , "jade": ">=0.25.0"
   }
 }
