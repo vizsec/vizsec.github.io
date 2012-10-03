@@ -7,7 +7,9 @@ module.exports = function (grunt) {
   // mincss - uses [csslint](https://github.com/stubbornella/csslint/wiki/Rules)
 
   // load jade and other contributed tasks
-  grunt.loadNpmTasks('grunt-contrib');
+  grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-mincss');
 
   // Project configuration.
   grunt.initConfig({
@@ -54,13 +56,29 @@ module.exports = function (grunt) {
       }
     },
     jade: {
-      'deploy': [ 'source/templates/*jade' ],
-      'deploy/vizsec2006': [ 'source/templates/vizsec2006/*jade' ],
-      'deploy/vizsec2007': [ 'source/templates/vizsec2007/*jade' ],
-      'deploy/vizsec2008': [ 'source/templates/vizsec2008/*jade' ],
-      'deploy/vizsec2009': [ 'source/templates/vizsec2009/*jade' ],
-      'deploy/vizsec2010': [ 'source/templates/vizsec2010/*jade' ],
-      'deploy/vizsec2011': [ 'source/templates/vizsec2011/*jade' ]
+      compile: {
+        options: {
+          data: {
+            filename: 'source/templates/includes',
+            debug: true
+          }
+        },
+        files: {
+          'deploy/404.html': 'source/templates/404.jade',
+          'deploy/about.html': 'source/templates/about.jade',
+          'deploy/index.html': 'source/templates/index.jade',
+          'deploy/johng.html': 'source/templates/johng.jade',
+          'deploy/past.html': 'source/templates/past.jade',
+          'deploy/publicity.html': 'source/templates/publicity.jade',
+          'deploy/roles.html': 'source/templates/roles.jade',
+          'deploy/vizsec2006/index.html': 'source/templates/vizsec2006/index.jade',
+          'deploy/vizsec2007/index.html': 'source/templates/vizsec2007/index.jade',
+          'deploy/vizsec2008/index.html': 'source/templates/vizsec2008/index.jade',
+          'deploy/vizsec2009/index.html': 'source/templates/vizsec2009/index.jade',
+          'deploy/vizsec2010/index.html': 'source/templates/vizsec2010/index.jade',
+          'deploy/vizsec2011/index.html': 'source/templates/vizsec2011/index.jade'
+        }
+      }
     },
     min: {
       app: {
@@ -101,11 +119,6 @@ module.exports = function (grunt) {
     },
     uglify: {
       
-    },
-    options: {
-      jade: {
-        filename: 'source/includes/'
-      }
     }
     
   });

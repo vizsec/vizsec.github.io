@@ -16,7 +16,10 @@
   ]
 , "devDependencies": {
     "grunt": ">0.3"
-  , "grunt-contrib": "=0.0.7"
+  , "grunt-contrib-jade": ">=0.0.3"
+  , "grunt-contrib-jshint": ">=0.0.1"
+  , "grunt-contrib-mincss": ">=0.0.3"
+  , "grunt-contrib-clean": ">=0.0.1"
   , "jade": ">=0.25.0"
   }
 }
