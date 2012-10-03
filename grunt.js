@@ -59,7 +59,6 @@ module.exports = function (grunt) {
       compile: {
         options: {
           data: {
-            filename: 'source/templates/includes',
             debug: true
           }
         },
