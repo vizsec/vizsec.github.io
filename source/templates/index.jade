@@ -1,4 +1,4 @@
-- var modifyDate = 'July 8, 2013'
+- var modifyDate = 'September 11, 2013'
 - var eventDate = 'October 14, 2013'
 - var eventLocation = 'Atlanta GA, USA'
 - var year = 2013
@@ -17,7 +17,11 @@ body
       p #{eventDate} <br class='visible-phone' /><span class='hidden-phone'>&nbsp; / &nbsp;</span> #{eventLocation}
       p In conjunction with <a href='#{hostConfUrl}'>#{hostConf}</a>
   
-    
+    section#news
+      .alert.alert-block.alert-info
+        p The early bird registration deadline has passed. Please continue to the <a href='http://ieeevis.org/year/2013/info/registration/conference-registration'>#{hostConf} Registration site</a> to register for the conference.
+
+
     section#welcome
       .page-header
         h2 Welcome to VizSec 2013
