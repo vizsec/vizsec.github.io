@@ -1,1 +1,0 @@
-Use either the [bootstrap CDN](http://www.bootstrapcdn.com/) or download from [github](http://twitter.github.com/bootstrap/).  Download a [custom build of bootstrap](http://twitter.github.com/bootstrap/download.html).  Include the `Collapse` jQuery plugins.  

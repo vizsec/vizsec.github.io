@@ -88,7 +88,8 @@ module.exports = function (grunt) {
     },
     mincss : {
       'deploy/css/style.min.css': [
-        'source/assets/css/bootstrap.css',
+        'source/assets/css/bootstrap.min.css',
+        'source/assets/css/bootstrap-responsive.min.css',
         'source/assets/css/app.css'
       ]
     },
