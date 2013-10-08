@@ -30,6 +30,10 @@ module.exports = function (grunt) {
         src : [ 'source/assets/js/jquery-1.7.2.min.js' ],
         dest: 'deploy/js/'
       },
+      f2013: {
+        src : [ 'source/files/vizsec2013/*' ],
+        dest: 'deploy/files/2013'
+      },
       f2011: {
         src : [ 'source/files/vizsec2011/*' ],
         dest: 'deploy/files/2011'
