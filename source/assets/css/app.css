@@ -47,6 +47,10 @@ footer p {
   margin-bottom: -16px;
 }
 
+.vid {
+  text-align: center;
+}
+
 dl.program-list dt {
   width: 100px;
 }
