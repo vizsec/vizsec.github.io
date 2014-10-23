@@ -68,6 +68,7 @@ module.exports = function (grunt) {
         },
         files: {
           'deploy/404.html': 'source/templates/404.jade',
+          'deploy/toc.html': 'source/templates/toc.jade',
           'deploy/about.html': 'source/templates/about.jade',
           'deploy/index.html': 'source/templates/index.jade',
           'deploy/johng.html': 'source/templates/johng.jade',

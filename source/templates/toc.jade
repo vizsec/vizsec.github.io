@@ -1,0 +1,62 @@
+- var modifyDate = 'October 23, 2014'
+- var year = 2014
+- var eventDate = 'November 10, 2014'
+- var eventLocation = 'Paris, France'
+- var hostConf = 'IEEE VIS'
+- var hostConfUrl = 'http://ieeevis.org/'
+
+include includes/head
+body
+  include includes/nav
+  .container
+    header.hero-unit
+      h1 VizSec #{year} 
+        small.hidden-phone  Visualization for Cyber Security
+      h1.visible-phone
+        small  Visualization for Cyber Security
+      p #{eventDate} <br class='visible-phone' /><span class='hidden-phone'>&nbsp; / &nbsp;</span> #{eventLocation}
+      p In conjunction with <a href='#{hostConfUrl}'>#{hostConf}</a>
+
+    section#program
+      .page-header
+        h2 Program
+
+      h3#papers Papers
+      dl.paper-list
+        dt Siming Chen, Cong Guo, Xiaoru Yuan, Fabian Merkle, Hanna Schaefer and Thomas Ertl
+        dd <a href="">"OCEANS - Online Collaborative Explorative Analysis on Network Security"</a>
+        dt Markus Wagner, Wolfgang Aigner, Alexander Rind, Hermann Dornhackl, Konstantin Kadletz, Robert Luh and Paul Tavolato
+        dd <a href="">"Problem Characterization and Abstraction for Visual Analytics in Behavior-Based Malware Pattern Analysis"</a>
+        dt Simon Walton, Eamonn Maguire and Min Chen
+        dd <a href="">"Multiple Queries with Conditional Attributes (QCATs) for Anomaly Detection and Visualization"</a>
+        dt Tobias Wüchner, Alexander Pretschner and Martin Ochoa
+        dd <a href="">"DAVAST: Data-centric Activity Visualization at the System Level"</a>
+        dt Daniel Best, Alex Endert and Daniel Kidwell
+        dd <a href="">"7 Key Challenges for Visualization in Cyber Network Defense"</a>
+        dt Jan-Erik Stange, Johannes Landstorfer, Marian Dörk and Reto Wettach
+        dd <a href="">"Visual Filter: Graphical Exploration of Network Security Log Files"</a>
+        dt Diane Staheli, Yu Tamara, R. Jordan Crouser, Suresh Damodaran, Kevin Nam, David O'Gwynn, Lane Harrison and Sean McKenna
+        dd <a href="">"Visualization Evaluation for Cyber Security: Trends and Future Directions"</a>
+        dt Christopher Humphries, Nicolas Prigent, Christophe Bidan and Frédéric Majorczyk
+        dd <a href="">"CORGI: Combination, Organization and Reconstruction through Graphical Interactions"</a>
+        dt Fabian Fischer and Daniel A. Keim
+        dd <a href="">"NStreamAware: Real-Time Visual Analytics for Data Streams to Enhance Situational Awareness"</a>
+        dt Robert Gove, Joshua Saxe, Sigfried Gold, Alex Long and Giacomo Bergamo
+        dd <a href="">"SEEM: A Scalable Visualization for Comparing Multiple Large Sets of Attributes for Malware Analysis"</a>
+        dt J. Joseph Fowler, Thienne Johnson, Paolo Simonetto, Michael Schneider, Carlos Acedo, Stephen Kobourov and Loukas Lazos
+        dd <a href="">"IMap: Visualizing Network Activity over Internet Maps"</a>
+        dt Alexander Long, Josh Saxe and Robert Gove
+        dd <a href="">"Detecting Malware Samples with Similar Image Sets"</a>
+
+      h3#posters Posters
+      dl.paper-list
+        dt Sean McKenna
+        dd <a href="">"Designing STAR: A Cyber Dashboard Prototype"</a>
+        dt Jussi Timonen
+        dd <a href="">"Situational awareness and visualization in a cyber environment and a C2 system of dismounted soldiers"</a>
+        dt Marco Angelini, Dario De Santis, Giuseppe Santucci
+        dd <a href="">"Toward Geographical Visualizations for hierarchical security data"</a>
+        dt Peter Curtis, Nathan Phillips, Daniel Simpkins, T.J. Jankun-Kelly
+        dd <a href="">"Poster: A Tool for Rapid Visual Interrogation & Triage of Alerts"</a>
+
+    include includes/foot
