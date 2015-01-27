@@ -5,9 +5,9 @@
 - var hostConf = 'IEEE VIS'
 - var hostConfUrl = 'http://ieeevis.org/'
 
-include includes/head
+include ../includes/head
 body
-  include includes/nav
+  include ../includes/nav
   .container
     header.hero-unit
       h1 VizSec #{year} 
@@ -22,7 +22,7 @@ body
         h2 Welcome to VizSec #{year}
       p VizSec was held in #{eventLocation} on #{eventDate}. VizSec brings together researchers and practitioners in information visualization and security to address the specific needs of the cyber security community through new and insightful visualization techniques.
       p VizSec was held in conjunction with <a href='#{hostConfUrl}'>#{hostConf}</a>.
-      p The proceedings are available in the ACM Digital Library: <a href="http://dl.acm.org/citation.cfm?id=2517957">http://dl.acm.org/citation.cfm?id=2517957</a>.
+      p The proceedings are available in the ACM Digital Library: <a href="http://dl.acm.org/citation.cfm?id=2671491">http://dl.acm.org/citation.cfm?id=2671491</a>.
       p The VizSec 2014 presentations are available at <a href="http://vimeo.com/groups/vizsec2014">the VizSec Vimeo group site</a>.
       p The VizSec 2014 keynote speaker was <a href="#keynote">Dan Hubbard</a>.
       p.vid <iframe src="//player.vimeo.com/video/102772049?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -277,4 +277,4 @@ body
         h2 Contact
       p Email questions to <a href="mailto:vizsec#{year}@easychair.org">vizsec#{year}@easychair.org</a> or post to the <a href="https://groups.google.com/forum/#!forum/vizsec">Google Group</a>.
 
-    include includes/foot
+    include ../includes/foot
