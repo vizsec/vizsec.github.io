@@ -1,0 +1,280 @@
+- var modifyDate = 'November 10, 2014'
+- var year = 2014
+- var eventDate = 'November 10, 2014'
+- var eventLocation = 'Paris, France'
+- var hostConf = 'IEEE VIS'
+- var hostConfUrl = 'http://ieeevis.org/'
+
+include includes/head
+body
+  include includes/nav
+  .container
+    header.hero-unit
+      h1 VizSec #{year} 
+        small.hidden-phone  Visualization for Cyber Security
+      h1.visible-phone
+        small  Visualization for Cyber Security
+      p #{eventDate} <br class='visible-phone' /><span class='hidden-phone'>&nbsp; / &nbsp;</span> #{eventLocation}
+      p In conjunction with <a href='#{hostConfUrl}'>#{hostConf}</a>
+
+    section#welcome
+      .page-header
+        h2 Welcome to VizSec #{year}
+      p VizSec was held in #{eventLocation} on #{eventDate}. VizSec brings together researchers and practitioners in information visualization and security to address the specific needs of the cyber security community through new and insightful visualization techniques.
+      p VizSec was held in conjunction with <a href='#{hostConfUrl}'>#{hostConf}</a>.
+      p The proceedings are available in the ACM Digital Library: <a href="http://dl.acm.org/citation.cfm?id=2517957">http://dl.acm.org/citation.cfm?id=2517957</a>.
+      p The VizSec 2014 presentations are available at <a href="http://vimeo.com/groups/vizsec2014">the VizSec Vimeo group site</a>.
+      p The VizSec 2014 keynote speaker was <a href="#keynote">Dan Hubbard</a>.
+      p.vid <iframe src="//player.vimeo.com/video/102772049?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    section#program
+      .page-header
+        h2 Program
+
+      h3 Program Schedule
+      dl.dl-horizontal.program-list
+        dt 8:30 &ndash; 8:45
+        dd Kirsten Whitley, VizSec Chair: Welcome
+
+        dt 8:45 &ndash; 9:45
+        dd Keynote: <a href="#keynote">Dan Hubbard</a> &ndash; <strong>Security at the Pace of Change: Storytelling with Security Viz</strong>
+
+        dt 9:45 &ndash; 10:10
+        dd <i>Poster Fast Forward</i>
+
+        dt 10:10 &ndash; 10:30
+        dd Break
+
+        dt 10:30 &ndash; 12:10
+        dd <i>Paper Session</i>: General
+          ul.unstyled
+            li <strong>Visualization Evaluation for Cyber Security: Trends and Future Directions</strong> <br />Diane Staheli, Yu Tamara, R. Jordan Crouser, Suresh Damodaran, Kevin Nam, David O'Gwynn, Lane Harrison and Sean McKenna
+            li <strong>Multiple Queries with Conditional Attributes (QCATs) for Anomaly Detection and Visualization</strong> <br />Simon Walton, Eamonn Maguire and Min Chen
+            li <strong>NStreamAware: Real-Time Visual Analytics for Data Streams to Enhance Situational Awareness</strong> <br />Fabian Fischer and Daniel A. Keim
+            li <strong>IMap: Visualizing Network Activity over Internet Maps</strong> <br />J. Joseph Fowler, Thienne Johnson, Paolo Simonetto, Michael Schneider, Carlos Acedo, Stephen Kobourov and Loukas Lazos
+
+        dt 12:10 &ndash; 2:00
+        dd Lunch
+
+        dt 2:00 &ndash; 3:40
+        dd <i>Paper Session</i>: Networks
+          ul.unstyled
+            li <strong>7 Key Challenges for Visualization in Cyber Network Defense</strong> <br />Daniel Best, Alex Endert and Daniel Kidwell
+            li <strong>Visual Filter: Graphical Exploration of Network Security Log Files</strong> <br />Jan-Erik Stange, Johannes Landstorfer, Marian D&ouml;rk and Reto Wettach
+            li <strong>CORGI: Combination, Organization and Reconstruction through Graphical Interactions</strong> <br />Christopher Humphries, Nicolas Prigent, Christophe Bidan and Fr&eacute;d&eacute;ric Majorczyk
+            li <strong>OCEANS &ndash; Online Collaborative Explorative Analysis on Network Security</strong> <br />Siming Chen, Cong Guo, Xiaoru Yuan, Fabian Merkle, Hanna Schaefer and Thomas Ertl
+
+        dt 3:40 &ndash; 4:15
+        dd Break
+
+        dt 4:15 &ndash; 5:55
+        dd <i>Paper Session</i>: Malware
+          ul.unstyled
+            li <strong>Problem Characterization and Abstraction for Visual Analytics in Behavior-Based Malware Pattern Analysis</strong> <br />Markus Wagner, Wolfgang Aigner, Alexander Rind, Hermann Dornhackl, Konstantin Kadletz, Robert Luh and Paul Tavolato
+            li <strong>Detecting Malware Samples with Similar Image Sets</strong> <br />Alexander Long, Josh Saxe and Robert Gove
+            li <strong>SEEM: A Scalable Visualization for Comparing Multiple Large Sets of Attributes for Malware Analysis</strong> <br />Robert Gove, Joshua Saxe, Sigfried Gold, Alex Long and Giacomo Bergamo
+            li <strong>DAVAST: Data-centric Activity Visualization at the System Level</strong> <br />Tobias W&uuml;chner, Alexander Pretschner and Martin Ochoa
+
+        dt 5:55 &ndash; 6:00
+        dd Break
+
+        dt 6:00 &ndash; 7:00
+        dd <i>Poster Session</i>
+
+
+      h3#keynote Keynote
+      h4 Dan Hubbard
+      p <strong>Security at the Pace of Change:  Storytelling with Security Viz</strong>
+      //- p <a href='files/#{year}/Speaker-keynote.pdf'>presentation</a>
+      p Over the last few years, the security industry has been leapfrogged in innovation by both attackers and advances in the greater information technology landscape. Incremental changes in how we defend networks and data are no longer good enough to keep up with the pace of change. We are losing ground more rapidly than ever before.
+      p The Big Data movement, when paired with visualization, gives the security industry a chance to get back to innovating and get ahead of the pace of change. Our ability to explore data in a meaningful way is critical to discovering, predicting, and ultimately detecting advanced threats in the future. The addition to new interfaces and 3D exploration models provide researchers with additional techniques to examine data and tell meaningful security stories.
+      p.vid <img src="/img/hubbard.png" alt="OpenDNS" />
+      p Dan Hubbard is the Chief Technology Officer for OpenDNS. A pioneering force in Internet security for more than 20 years, Dan’s expertise spans from reputation systems to large scale data mining of the Internet and advanced classification systems. Dan joined OpenDNS to expand the company’s breadth and depth of knowledge of security and products, assist in delivering disruptive new technologies and drive innovation company-wide. Prior to OpenDNS, Dan was the CTO at Websense, where he was responsible for research and development of existing and new technologies, investigating technology trends and driving innovation globally across the company. Additionally, he conceived, built, and managed the Websense Security Labs. Dan has presented at almost every major security conference around the globe, appeared on several international media outlets and is frequently quoted in the media.
+
+
+      h3#papers Papers
+      dl.paper-list
+        //- dt Authors
+        //- dd "Title"  <a href="DOI Link">paper link</a> | <a href='files/#{year}/Author.pdf'>presentation</a>
+        dt Siming Chen, Cong Guo, Xiaoru Yuan, Fabian Merkle, Hanna Schaefer and Thomas Ertl
+        dd "OCEANS - Online Collaborative Explorative Analysis on Network Security"
+        dt Markus Wagner, Wolfgang Aigner, Alexander Rind, Hermann Dornhackl, Konstantin Kadletz, Robert Luh and Paul Tavolato
+        dd "Problem Characterization and Abstraction for Visual Analytics in Behavior-Based Malware Pattern Analysis"
+        dt Simon Walton, Eamonn Maguire and Min Chen
+        dd "Multiple Queries with Conditional Attributes (QCATs) for Anomaly Detection and Visualization"
+        dt Tobias Wüchner, Alexander Pretschner and Martin Ochoa
+        dd "DAVAST: Data-centric Activity Visualization at the System Level"
+        dt Daniel Best, Alex Endert and Daniel Kidwell
+        dd "7 Key Challenges for Visualization in Cyber Network Defense"
+        dt Jan-Erik Stange, Johannes Landstorfer, Marian Dörk and Reto Wettach
+        dd "Visual Filter: Graphical Exploration of Network Security Log Files"
+        dt Diane Staheli, Yu Tamara, R. Jordan Crouser, Suresh Damodaran, Kevin Nam, David O'Gwynn, Lane Harrison and Sean McKenna
+        dd "Visualization Evaluation for Cyber Security: Trends and Future Directions"
+        dt Christopher Humphries, Nicolas Prigent, Christophe Bidan and Frédéric Majorczyk
+        dd "CORGI: Combination, Organization and Reconstruction through Graphical Interactions"
+        dt Fabian Fischer and Daniel A. Keim
+        dd "NStreamAware: Real-Time Visual Analytics for Data Streams to Enhance Situational Awareness"
+        dt Robert Gove, Joshua Saxe, Sigfried Gold, Alex Long and Giacomo Bergamo
+        dd "SEEM: A Scalable Visualization for Comparing Multiple Large Sets of Attributes for Malware Analysis"
+        dt J. Joseph Fowler, Thienne Johnson, Paolo Simonetto, Michael Schneider, Carlos Acedo, Stephen Kobourov and Loukas Lazos
+        dd "IMap: Visualizing Network Activity over Internet Maps"
+        dt Alexander Long, Josh Saxe and Robert Gove
+        dd "Detecting Malware Samples with Similar Image Sets"
+
+      h3#posters Posters
+      dl.paper-list
+        //- dt Authors
+        //- dd "Title" <a href='files/#{year}/Author-poster.pdf'>poster</a> | <a href='files/#{year}/Author-abstract.pdf'>abstract</a>
+        dt Sean McKenna
+        dd "Designing STAR: A Cyber Dashboard Prototype" <a href='files/#{year}/mckenna-poster.pdf'>poster</a> | <a href='files/#{year}/mckenna-abstract.pdf'>abstract</a>
+        dt Jussi Timonen
+        dd "Situational awareness and visualization in a cyber environment and a C2 system of dismounted soldiers" <a href='files/#{year}/timonen-abstract.pdf'>abstract</a>
+        dt Marco Angelini, Dario De Santis, Giuseppe Santucci
+        dd "Toward Geographical Visualizations for hierarchical security data" <a href='files/#{year}/angelini-abstract.pdf'>abstract</a>
+        dt Peter Curtis, Nathan Phillips, Daniel Simpkins, T.J. Jankun-Kelly
+        dd "Poster: A Tool for Rapid Visual Interrogation & Triage of Alerts" <a href='files/#{year}/curtis-abstract.pdf'>abstract</a>
+
+
+    section#cfp
+      .page-header
+        h2 Call for Papers
+      p The 11th Visualization for Cyber Security (VizSec) is a forum that brings together researchers and practitioners from academia, government, and industry to address the needs of the cyber security community through new and insightful visualization and analysis techniques. VizSec provides an excellent venue for fostering greater exchange and new collaborations on a broad range of security- and privacy-related topics. VizSec will be held in Paris, France on November 10, 2014 in conjunction with IEEE VIS. 
+
+      p Important research problems often lie at the intersection of disparate domains. Our focus is to explore effective, scalable visual interfaces for security domains, where visualization may provide a distinct benefit, including computer forensics, reverse engineering, insider threat detection, cryptography, privacy, preventing user assisted attacks, compliance management, wireless security, secure coding, and penetration testing in addition to traditional network security. Human time and attention are precious resources. We are particularly interested in visualization and interaction techniques that effectively capture the insights of human analysts so that further processing may be handled by machines, freeing analysts for other tasks. For example, a malware analyst might use a visualization system to analyze a new piece of malicious software that facilitates generating a signature for future machine processing. When appropriate, research that incorporates multiple data sources, such as network packet captures, firewall rule sets and logs, DNS logs, web server logs, and/or intrusion detection system logs, is particularly desirable. 
+
+      h3 Technical Papers
+      p Full papers describing novel contributions in security visualization are solicited. Papers may present techniques, applications, practical experience, theory, analysis, or experiments and evaluations. We encourage the submission of papers on technologies and methods that promise to improve cyber security practices, including, but not limited to:
+      ul
+        li Situation awareness and/or understanding 
+        li Incident handling including triage, exploration, correlation, and response 
+        li Computer forensics 
+        li Recording and reporting results of investigations 
+        li Reverse engineering and malware analysis 
+        li Multiple data source analysis 
+        li Analyzing information requirements for computer network defense 
+        li Evaluation and/or user testing of VizSec systems 
+        li Criteria for assessing the effectiveness of cyber security visualizations (whether from a security goal perspective or a human factors perspective)
+        li Modeling system and network behavior 
+        li Modeling attacker and defender behavior 
+        li Studying risk and impact of cyber attacks 
+        li Predicting future attacks or targets 
+        li Security metrics and education 
+        li Software security 
+        li Mobile application security 
+        li Social networking privacy and security 
+      
+      p Accepted papers will appear in the <a href="http://dl.acm.org/event.cfm?id=RE500">ACM Digital Library</a> as part of the <a href="http://www.acm.org/publications/icp_series">ACM International Conference Proceedings Series</a>.
+
+      h3 Posters
+      p Poster submissions may showcase late-breaking results, work in progress, preliminary results, or visual representations relevant to the VizSec community. The poster program will be a great opportunity for the authors to interact with the attendees and solicit feedback. Accepted poster abstracts will be made available on this website.
+
+      h3 Data
+      p If you do not have real-world data to demonstrate your visualization, you may be interested in looking at the <a href="http://www.vacommunity.org/VAST+Challenge+2012">VAST 2012 Challenge data</a>. <a href="http://www.vacommunity.org/VAST+Challenge+2013%3A+Mini-Challenge+3">VAST 2013</a> and <a href="http://hcil.cs.umd.edu/localphp/hcil/vast11/index.php">VAST 2011</a> also had cyber security data if you are looking for additional data.
+      
+      section#submissions
+        .page-header
+          h2 Submissions
+        h3 Papers
+        p Papers should be at most 8 pages including the bibliography and appendices. Committee members are not required to read the appendices or any pages past the maximum. Submissions not meeting these guidelines will be rejected without consideration of their merit. Reviews are single-blind, so authors may include names and affiliations in their submissions. Submitted papers must not substantially overlap papers that have been published or that are simultaneously submitted to a journal or a conference with proceedings. Authors of accepted papers must guarantee that their papers will be presented at the conference. 
+        p The VizSec proceedings will be published by ACM. The <a href='http://www.acm.org/sigs/publications/proceedings-templates'> ACM SIG Proceedings Templates</a> provides Word and LaTeX templates. (If you are using LaTeX, please use <strong>Option 2: LaTeX2e - Tighter Alternate style</strong>.) 
+        p Authors should apply <a href='http://www.acm.org/about/class/1998'>ACM Computing Classification categories and terms</a>. 
+        p ACM invites authors to submit an image representation of their article. The image must be selected from the article body and can be any of the following: art, graphic, table, figures, etc. (Image files are to be as square as possible, 100x100 ppi and in jpg format.) Authors must supply a caption with the image. The caption length should be no more than 512 characters.
+
+        h3 Posters
+        p Interested authors should submit an extended abstract as PDF of at most 2 pages including figures and references. Accepted abstracts will be made available on this website. Authors must present a corresponding poster during the workshop. The poster authors can determine the layout by themselves, but the dimensions of the posters should not exceed the A0 space (841mm x 1189mm or 33.1" x 46.8"). Additionally, poster authors are requested to give a brief oral preview during a plenary "fast forward" session.
+
+        h3 Submission
+        p Submit papers and poster abstracts using EasyChair: <a href='http://www.easychair.org/conferences/?conf=vizsec#{year}'>http://www.easychair.org/conferences/?conf=vizsec#{year}</a>
+        
+
+    section#dates
+      .page-header
+        h2 Important Dates
+
+      p <strong>All deadlines are 5:00 PM PST</strong>
+
+      h4 Papers (updated)
+      dl.dl-horizontal.date-list
+        dt August 8, #{year}
+        dd Submission for Papers
+        dt September 12, #{year}
+        dd Author Notification for Papers
+        dt October 3, #{year}
+        dd Camera Ready Submission and Copyright Forms for Papers
+
+      h4 Posters
+      dl.dl-horizontal.date-list
+        dt September 19, #{year}
+        dd Abstract Submission for Posters
+        dt September 26, #{year}
+        dd Author Notification for Poster
+
+
+    section#venue
+      .page-header
+        h2 Hotel and Venue
+      p VizSec is held with <a href='#{hostConfUrl}'>#{hostConf}</a>.
+      p To register, continue to the <a href='http://ieeevis.org/year/#{year}/info/registration/conference-registration'>IEEE VIS Conference Registration page</a>.
+      p For more information on the venue and hotel, please see the <a href="http://ieeevis.org/year/#{year}/info/registration/conference-venue">IEEE VIS 2014 Conference Venue page</a>.
+
+
+    section#committee
+      .page-header
+        h2 Committee
+      dl
+        dt General Chair
+        dd Kirsten Whitley, US Department of Defense
+        dt Program Chair
+        dd <a href="http://sjengle.cs.usfca.edu/">Sophie Engle</a>, University of San Francisco
+        dt Publications Chair
+        dd <a href="http://codementum.org/">Lane Harrison</a>, Tufts University
+        dt Poster Chair
+        dd <a href="http://www.vis.uni-konstanz.de/en/members/fischer/">Fabian Fischer</a>, University of Konstanz
+        dt Local Chair
+        dd Nicolas Prigent, Sup&#233;lec
+        dt website
+        dd <a href="http://jgoodall.me/">John Goodall</a>, Oak Ridge National Laboratory
+
+
+      h4 Program Committee
+      ul
+        li David Barrera, ETH Z&#252;rich
+        li Daniel Best, Pacific Northwest National Laboratory
+        li Gregory Conti, US Military Academy at West Point
+        li Ann Cox, US Department of Homeland Security, Science & Technology Directorate
+        li Gustavo de los Reyes, AT&amp;T
+        li Ron Dilley, UberAdmin
+        li David Ebert, Purdue University
+        li Alex Endert, Georgia Institute of Technology
+        li Rob Erbacher, Army Research Laboratory
+        li Fabian Fischer, University of Konstanz
+        li Deborah Frincke, US Department of Defense
+        li Carrie Gates, Dell
+        li John Gerth, Stanford University
+        li T.J. Jankun-Kelly, Mississippi State University
+        li Jörn Kohlhammer, Fraunhofer IGD
+        li Tim Leschke, US Department of Defense and Johns Hopkins University
+        li Celeste Lyn Paul, Department of Defense
+        li Raffael Marty, PixlCloud
+        li Chris Muelder, University of California Davis
+        li Stephen North, Graphviz
+        li Joe Parry, Cambridge Intelligence
+        li Elisha Peterson, JHU Applied Physics Laboratory
+        li Danny Quist, Bechtel Corporation
+        li Chris Simpson, National University
+        li Diane Staheli, MIT Lincoln Laboratory
+        li Teryl Taylor, University of North Carolina
+        li Olivier Thonnard, Symantec Research Labs Europe
+        li Joanne Treurniet, Defence Research and Development Canada
+        li David Trimm, US Department of Defense
+        li Grant Vandenberghe, Defense Research and Development Canada
+        li Sean Whalen, University of California San Francisco
+        li Anatoly Yelizarov, Lomonosov Moscow State University
+        li Tamara Yu, MIT Lincoln Laboratory
+
+    section#contact
+      .page-header
+        h2 Contact
+      p Email questions to <a href="mailto:vizsec#{year}@easychair.org">vizsec#{year}@easychair.org</a> or post to the <a href="https://groups.google.com/forum/#!forum/vizsec">Google Group</a>.
+
+    include includes/foot
