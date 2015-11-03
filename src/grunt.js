@@ -19,47 +19,53 @@ module.exports = function (grunt) {
     },
     copy: {
       staticFiles: {
-        src: [ 'source/static/*'],
+        src: ['source/static/*'],
         dest: 'deploy/'
       },
       img: {
-        src: [ 'source/assets/img/*'],
+        src: ['source/assets/img/*'],
         dest: 'deploy/img'
       },
       jquery: {
-        src : [ 'source/assets/js/jquery-1.7.2.min.js' ],
+        src: ['source/assets/js/jquery-1.7.2.min.js'],
         dest: 'deploy/js/'
       },
+      f2015: {
+        src: ['source/files/vizsec2015/*'],
+        dest: 'deploy/files/2015'
+      },
       f2014: {
-        src : [ 'source/files/vizsec2014/*' ],
+        src: ['source/files/vizsec2014/*'],
         dest: 'deploy/files/2014'
       },
       f2013: {
-        src : [ 'source/files/vizsec2013/*' ],
+        src: ['source/files/vizsec2013/*'],
         dest: 'deploy/files/2013'
       },
       f2011: {
-        src : [ 'source/files/vizsec2011/*' ],
+        src: ['source/files/vizsec2011/*'],
         dest: 'deploy/files/2011'
       },
       f2010: {
-        src : [ 'source/files/vizsec2010/*' ],
+        src: ['source/files/vizsec2010/*'],
         dest: 'deploy/files/2010'
       },
       f2009: {
-        src : [ 'source/files/vizsec2009/posters/*','source/files/vizsec2009/papers/*' ],
+        src: ['source/files/vizsec2009/posters/*',
+          'source/files/vizsec2009/papers/*'
+        ],
         dest: 'deploy/files/2009'
       },
       f2008: {
-        src : [ 'source/files/vizsec2008/*' ],
+        src: ['source/files/vizsec2008/*'],
         dest: 'deploy/files/2008'
       },
       f2007: {
-        src : [ 'source/files/vizsec2007/*' ],
+        src: ['source/files/vizsec2007/*'],
         dest: 'deploy/files/2007'
       },
       f2006: {
-        src : [ 'source/files/vizsec2006/*' ],
+        src: ['source/files/vizsec2006/*'],
         dest: 'deploy/files/2006'
       }
     },
@@ -97,7 +103,7 @@ module.exports = function (grunt) {
         dest: 'deploy/js/bootstrap.min.js'
       }
     },
-    mincss : {
+    mincss: {
       'deploy/css/style.min.css': [
         'source/assets/css/bootstrap.min.css',
         'source/assets/css/bootstrap-responsive.min.css',
@@ -130,9 +136,9 @@ module.exports = function (grunt) {
       }
     },
     uglify: {
-      
+
     }
-    
+
   });
 
   // Default task will be invoked when grunt is called without any argument
@@ -146,17 +152,21 @@ module.exports = function (grunt) {
   grunt.registerTask('clean', 'clean');
 
   // Copy is a separate task, since it does not need to be run as often
-  grunt.registerMultiTask('copy', 'Copy static files to deployment directory', function() {
-    var path = require("path"),
+  grunt.registerMultiTask('copy', 'Copy static files to deployment directory',
+    function () {
+      var path = require("path"),
         files = grunt.file.expand(this.file.src),
         dest = this.file.dest;
 
-    grunt.log.writeln('Copying files for ' + this.target + '.');
-        
-    files.forEach(function (file) {      
-      grunt.file.copy(file, path.join(dest, path.basename(file)), {noProcess: true});
-      grunt.log.writeln('File "' + file + '" copied to "' + dest + '".');
+      grunt.log.writeln('Copying files for ' + this.target + '.');
+
+      files.forEach(function (file) {
+        grunt.file.copy(file, path.join(dest, path.basename(file)), {
+          noProcess: true
+        });
+        grunt.log.writeln('File "' + file + '" copied to "' + dest +
+          '".');
+      });
     });
-  });
 
 };
