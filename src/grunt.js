@@ -93,7 +93,8 @@ module.exports = function (grunt) {
           'deploy/vizsec2011/index.html': 'source/templates/vizsec2011/index.jade',
           'deploy/vizsec2012/index.html': 'source/templates/vizsec2012/index.jade',
           'deploy/vizsec2013/index.html': 'source/templates/vizsec2013/index.jade',
-          'deploy/vizsec2014/index.html': 'source/templates/vizsec2014/index.jade'
+          'deploy/vizsec2014/index.html': 'source/templates/vizsec2014/index.jade',
+          'deploy/vizsec2015/index.html': 'source/templates/vizsec2015/index.jade'
         }
       }
     },
