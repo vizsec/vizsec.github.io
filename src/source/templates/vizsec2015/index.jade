@@ -1,4 +1,4 @@
-- var modifyDate = 'November 9, 2015'
+- var modifyDate = 'November 11, 2015'
 - var year = 2015
 - var eventDate = 'October 26, 2015'
 - var eventLocation = 'Chicago, Illinois, USA'
@@ -16,11 +16,16 @@ body
         small  IEEE Symposium on Visualization for Cyber Security
       p #{eventDate} <br class='visible-phone' /><span class='hidden-phone'>&nbsp; / &nbsp;</span> #{eventLocation}
 
+    section#news
+      .alert.alert-block.alert-info
+        p <a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7310645">The proceedings are now available in the IEEE digital library</a>.
+      
     section#welcome
       .page-header
         h2 Welcome to IEEE Symposium on Visualization for Cyber Security #{year}
       p IEEE VizSec was held in #{eventLocation} on #{eventDate}. VizSec brings together researchers and practitioners in information visualization and security to address the specific needs of the cyber security community through new and insightful visualization techniques.
       p VizSec was again be held in conjunction with <a href='#{hostConfUrl}'>#{hostConf}</a>.
+      p The proceedings are available in the IEEE Digital Library: <a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7310645">http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7310645</a>.
       p.vid <iframe src="//player.vimeo.com/video/136256060?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
       section#program
