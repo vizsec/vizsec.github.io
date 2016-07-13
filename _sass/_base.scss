@@ -1,0 +1,285 @@
+/*
+	VizSec base SASS styling
+*/
+
+@charset "UTF-8";
+
+body {
+  padding-top: floor(($navbar-height));
+  background: $vizsec_light;
+}
+
+// headers are all sans serif; body is serif
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-sans-serif;
+}
+
+h2, h3 {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+h4 {
+	margin-bottom:10px;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.header-magnifier {
+	height:25px;
+	margin-right:10px;
+}
+
+.jumbotron {
+	padding: 0px 15px 0px 15px;
+}
+
+.jumbotron .btn {
+	margin-right:14px;
+}
+
+.align-to-list {
+	margin-left: 1.8em;
+}
+
+li {
+  padding-left: 1.8em;
+  text-indent: -.7em;
+}
+
+li:before {
+  content: "\BB  ";
+  color: $vizsec_highlight;
+}
+
+li.no-bullet {
+	content: "" !important;
+  list-style: none;
+  list-style-type: none;
+}
+
+.vspace {
+	margin-top:10px;
+}
+
+.vspacebig {
+	margin-top:20px;
+}
+
+// by default, the sidebar 'past years' list is hidden
+// it is invoked by page-specific css in the page's Liquid bits
+.sidebar_extraneous {
+	display:none;
+}
+
+// thanks to http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+.page-anchor {
+	padding-top: $navbar_height;
+	margin-top: (-$navbar_height);
+	display: inline-block;
+	height:1px;
+}
+
+.footer {
+	padding-top:50px;
+	background-color: $vizsec_light;
+}
+
+.footer > div {
+	border-top: 7px solid $vizsec_highlight;
+	background-color: $vizsec_dark;
+	height:80px;
+	font-family: $font-family-sans-serif;
+	text-align:center;
+	color: $vizsec_light;
+	padding:30px 0px 30px 0px;
+}
+
+.page-content-default {
+	background: white;
+	padding-top:20px;
+}
+
+.page-content {
+	background: white;
+}
+
+a:link:not(.btn),
+a:visited:not(.btn),
+a:hover:not(.btn),
+a:active:not(.btn) {
+	text-decoration: none;
+	border-bottom: 1px dotted $vizsec_dark;
+}
+
+.sidebar > div:not(:last-child) {
+	margin-bottom:25px;
+}
+
+.btn {
+	font-family: $font-family-sans-serif;
+}
+
+.jumbotron {
+	color:$vizsec_light;
+	padding-top:0px;
+	padding-bottom:20px;
+	margin:0px;
+	border-bottom: 7px solid $vizsec_highlight;
+}
+
+.highlight {
+	color: $vizsec_highlight;
+}
+
+#ieee {
+	margin:30px 20px 0;
+	height:20px;
+}
+
+.navbar-brand > img {
+	height:40px;
+}
+
+// the underlay stops inertia scrolling from showing whitespace
+.navbar-underlay {
+	z-index:-1;
+	background-color: $vizsec_dark;
+	width:100%;
+	height: $navbar_height;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.navbar-nav {
+	padding-left:20px;
+	padding-top:10px;
+	font-family: $font-family-sans-serif;
+	font-size:14pt;
+}
+
+.navbar-nav a {
+	color:#fff;
+}
+.navbar-nav a:hover {
+	color:#bbb;
+}
+
+.nav > li:before {
+	content: none;
+}
+
+.nav > li > a {
+	padding-left:8px;
+	padding-right:0px;
+}
+
+
+.ipc.name {
+	font-weight:bold;
+}
+
+.ipc.affiliation {
+	font-weight:bold;
+	color: $vizsec_highlight;
+}
+
+.committee.name {
+	font-weight:bold;
+}
+
+.committee.name > a {
+	color: $vizsec_dark;
+}
+
+.committee.affiliation {
+	color: $vizsec_highlight;
+	font-size:floor(($font-size-base * 0.85));
+}
+
+.committee.role {
+	font-style:italic;
+}
+
+.vizsec-event-sidebar-list > dt {
+	width:60px;
+}
+
+.vizsec-event-sidebar-list > dt > span {
+	width:50px;
+	display: inline-block;
+}
+
+#viewallevents {
+	margin-top:0px;
+	margin-left:0px;
+	@media (min-width: $screen-sm) {
+		margin-left:70px;
+	}
+}
+
+.dl-horizontal-xs {
+  dd {
+    @include clearfix; // Clear the floated `dt` if an empty `dd` is present
+  }
+
+  @media (min-width: $dl-horizontal-xs-offset) {
+    dt {
+      float: left;
+      width: ($dl-horizontal-xs-offset - 10);
+      clear: left;
+      text-align: right;
+      @include text-overflow;
+    }
+    dd {
+      margin-left: $dl-horizontal-xs-offset;
+    }
+  }
+}
+
+.dl-horizontal dd {
+}
+
+.dl-horizontal dd {
+	margin-left:0px;
+	@media (min-width: $screen-sm) {
+	    margin-left: 70px;
+	}
+}
+
+.vizsec-event-meta > dd {
+	border-bottom: 1px solid red;
+	padding:10px;
+	margin-bottom:10px;
+
+	@media (min-width: $screen-sm) {
+	    margin-left: 180px;
+	}
+}
+
+.vizsec-event-meta.title {
+	font-style:italic;
+}
+
+.vizsec-event-meta.location {
+}
+
+.vizsec-event-meta.date {
+}
+
+.vizsec-event-meta.acceptance {
+}
+
+table.vizsec-cfp-dates {
+	margin-left: 40px;
+}
+
+table.vizsec-cfp-dates tr td:first-child {
+	padding-right:10px;
+	text-align:right;
+}

@@ -1,5 +1,0 @@
-As digital photography becomes more common, the need to authenticate and protect the integrity of digital images has become a concern. Institutions ranging from law enforcement to journalism have stakes in the authenticity of images that are used to convey information. Currently the ability to detect tampering in digital images is limited to detecting specific types of image tampering in specific types of images. Our research focuses on detecting images that have been maliciously tampered with using a cloning tool found in common commercial software. The goals of our project are to:
-
-- Gain background understanding of tampering detection techniques that currently exist.
-- Identify an area of image tampering detection that is currently lacking.
-- Create a tool the fills a need by detecting a common type of image tampering.

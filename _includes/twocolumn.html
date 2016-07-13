@@ -1,0 +1,46 @@
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-8">
+
+			{% if page.title %}<h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>{{ page.title }}</h2>{% endif %}
+
+			{{ content }}
+		</div>
+		<div class="col-md-4 sidebar">
+			<div>
+				<a id="contact" class="page-anchor"></a>
+				<h4><i class="fa fa-envelope" aria-hidden="true"></i> Get in Touch</h4>
+				<p>
+				 Email questions to <a href="mailto:vizsec2016@easychair.org">vizsec2016@easychair.org</a>, or you can post to our <a href="https://groups.google.com/forum/#!forum/vizsec">Google group.</a>
+				</p>
+				<p>
+				<i class="fa fa-twitter" aria-hidden="true"></i> Follow <a href="https://twitter.com/vizsec">@vizsec</a> on Twitter!
+				</p>
+			</div>
+			<div>
+				<h4><i class="fa fa-bullhorn" aria-hidden="true"></i> VizSec News</h4>
+				<ul>
+					{% for post in site.posts %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="sidebar_extraneous">
+				<h4><i class="fa fa-calendar" aria-hidden="true"></i> Past VizSec Events</h4>
+					<div>
+						<dl class="dl-horizontal-xs vizsec-event-sidebar-list">
+						{% for event in site.data.pastyears %}
+						<dt><a href="{{ event.website }}"><span class="label label-primary">{{ event.year }}</span></a></dt>
+						<dd><small>{{ event.location }}</small></dd>
+						{% endfor %}
+						</dl>
+					</div>
+					<a id="viewallevents" class="btn btn-default btn-sm " href="/past">View all »</a>
+			</div>
+		</div>
+	</div>
+</div>

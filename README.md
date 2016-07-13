@@ -1,14 +1,29 @@
 VizSec web site
 ===============
 
-All source files, including jade templates and css, image and javascript assets are in `src` directory.
+![](screenshot.jpg?raw=true)
 
-To build the source files, you must have [Node.js](http://nodejs.org/) version `0.10.x` installed. To build the site from the templates, run:
+All source files are in the root directory to comply with [Github Pages](https://pages.github.com). The VizSec website uses [Jekyll](http://jekyllrb.com) to generate the raw html and resources.
 
-    cd src && ./build.sh    
+# Prerequisites (if you don't have Jekyll)
 
-Then push to github and the changes will be live.
+## Install
 
-# contact
+- [Ruby](https://www.ruby-lang.org/en/) - Required by Jekyll; OSX already has Ruby, Linux and Windows don't. On Linux at least you'll need `apt-get instal ruby-dev` too for the headers
+- [Bundler](http://bundler.io/#getting-started) `gem install bundler`
+- [Jekyll](http://jekyllrb.com) - `gem install jekyll`
 
-[John Goodall](http://jgoodall.me/), twitter [@johnrgoodall](https://twitter.com/#!/johnrgoodall)
+## Setup
+
+	bundle install
+
+# Deploying to a Github Pages setup
+
+Everything is now managed by Jekyll. Running: 
+
+	jekyll build
+
+...will build the site into `_site`, as per Jekyll defaults. `jekyll serve` for local testing. 
+
+Pushing the whole repository to a Github Pages-compliant repository will host the site there. 
+
