@@ -3,8 +3,6 @@ title: VizSec Committee Roles
 layout: default
 ---
 
-## <img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>Committee Roles
-
 Below are the roles and responsibilities for members of the VizSec Organizing Committee.
 
 

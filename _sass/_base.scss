@@ -6,7 +6,7 @@
 
 body {
   padding-top: floor(($navbar-height));
-  background: $vizsec_light;
+  background: $vizsec_dark;
 }
 
 // headers are all sans serif; body is serif
@@ -103,7 +103,6 @@ li.no-bullet {
 	margin-right:0.1em;
 }
 
-
 // thanks to http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
 .page-anchor {
 	padding-top: $navbar_height;
@@ -113,14 +112,15 @@ li.no-bullet {
 }
 
 .footer {
-	padding-top:50px;
+	padding-top:10px;
+	width: 100%;	
+	height: 80px;
 	background-color: $vizsec_light;
 }
 
 .footer > div {
 	border-top: 7px solid $vizsec_highlight;
 	background-color: $vizsec_dark;
-	height:80px;
 	font-family: $font-family-sans-serif;
 	text-align:center;
 	color: $vizsec_light;
@@ -130,6 +130,8 @@ li.no-bullet {
 .page-content-default {
 	background: white;
 	padding-top:20px;
+	min-height: 700px;
+	padding-bottom: 50px;
 }
 
 .page-content {
@@ -146,6 +148,10 @@ a:active:not(.btn) {
 
 .sidebar > div:not(:last-child) {
 	margin-bottom:25px;
+}
+
+.sidebar {
+	margin-bottom: 20px;
 }
 
 .btn {
@@ -327,5 +333,8 @@ table.vizsec-cfp-dates tr td:first-child {
 	}
 	.navbar-nav {
 		margin-top: -15px;
+	}
+	.page-content-default {
+		margin-top: 65px;
 	}
 }
