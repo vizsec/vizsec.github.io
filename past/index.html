@@ -1,0 +1,35 @@
+---
+title: Past VizSec Events
+layout: default
+---
+
+<p>
+	Since 2004, VizSec has been proudly associated with many conferences. Most recently, VizSec has been associated with IEEE VIS. Below we list the previous VizSec events.
+	</p>
+<p>
+	You can also explore <a href="http://vizsec.dbvis.de/">VizSec Papers</a>, a visualization for browsing and searching VizSec papers, created by <a href="http://ff.cx/">Fabian Fischer</a>.
+	</p>
+</p>
+
+<h3>Past Events</h3>
+
+<dl class="dl-horizontal vizsec-event-meta">
+{% for event in site.data.pastyears %}
+		<dt>
+			<h4>VizSec {{ event.year }}</h4>
+			<a href="{{ event.proceedings}}">Proceedings</a><br>
+			{% if event.website %}
+				<a href="{{event.website}}">Website</a>
+			{% endif %}
+		</dt>
+		<dd>
+			<span class="vizsec-event-meta title">{{ event.title }}</span><br>
+			<span class="vizsec-event-meta location">Located with {{ event.with }} in {{ event.location}}</span><br>
+			Held <span class="vizsec-event-meta date">{{ event.date}}</span><br>
+			{% if event.acceptance %}
+				Acceptance rate: <span class="vizsec-event-meta acceptance">{{ event.acceptance}}</span><br>
+			{% endif %}
+		</dd>
+{% endfor %}
+
+	</dl>

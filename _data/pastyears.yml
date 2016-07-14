@@ -1,0 +1,104 @@
+
+- year: 2015
+  title: 12th International Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2015/info/vis-welcome/welcome'>IEEE VIS</a>
+  location: Chicago, Illinois, USA
+  date: October 26
+  acceptance: 11/34 (32%)
+  website: /vizsec2015/ 
+  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7310645
+
+- year: 2014
+  title: 11th International Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2014/info/vis-welcome/welcome'>IEEE VIS</a>
+  location: Paris, France
+  date: November 10
+  acceptance: 12/43 (28%)
+  website: /vizsec2014/ 
+  proceedings: http://dl.acm.org/citation.cfm?id=2671491
+
+- year: 2013
+  title: 10th International Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2013/info/call-participation/welcome'>IEEE VIS</a>
+  location: Atlanta GA, USA
+  date: October 14, 2013
+  acceptance: 9/30 (30%)
+  website: /vizsec2013/ 
+  proceedings: ACM Digital Library
+
+- year: 2012
+  title: 9th International Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2012/info/call-participation/welcome'>IEEE Vis Week</a>
+  location: Seattle, WA, USA
+  date: October 15
+  acceptance: 12 / 21 (57%)
+  website: /vizsec2012/ 
+  proceedings: http://dl.acm.org/citation.cfm?id=2379690
+
+- year: 2011
+  title: 8th International Symposium on Visualization for Cyber Security
+  with: <a href='http://cups.cs.cmu.edu/soups/'>SOUPS</a>
+  location: Pittsburgh, PA, USA
+  date: July 20
+  acceptance: 6 / 11 (55%)
+  website: /vizsec2011/ 
+  proceedings: http://dl.acm.org/citation.cfm?id=2016904
+
+- year: 2010
+  title: 7th International Symposium on Visualization for Cyber Security
+  with: <a href='http://www.raid-symposium.org/'>RAID</a>
+  location: Ottawa, ON, Canada
+  date: September 14
+  acceptance: 12 / 27 (44%)
+  website: /vizsec2010/ 
+  proceedings: http://dl.acm.org/citation.cfm?id=1850795
+
+- year: 2009
+  title: 6th International Workshop on Visualization for Cyber Security
+  with: <a href='http://visweek.org/'>IEEE Vis Week</a>
+  location: Atlantic City, NJ, USA
+  date: October 11
+  acceptance: 10 / 23 (43%)
+  website: /vizsec2009/ 
+  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5368324
+
+- year: 2008
+  title: 5th International Workshop on Visualization for Cyber Security
+  with: <a href='http://www.raid-symposium.org/'>RAID</a>
+  location: Cambridge, MA, USA
+  date: September 15
+  acceptance: 18 / 27 (67%)
+  website: /vizsec2008/ 
+  proceedings: http://www.springerlink.com/content/978-3-540-85931-4
+
+- year: 2007
+  title: 4th International Workshop on Visualization for Cyber Security
+  with: <a href='http://visweek.org/'>IEEE Vis Week</a>
+  location: Sacramento, CA
+  date: October 29
+  website: /vizsec2007/
+  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10259
+
+- year: 2006
+  title: 3th International Workshop on Visualization for Cyber Security
+  with: <a href='http://www.sigsac.org/ccs.html'>ACM CCS</a>
+  location: Washington, DC, USA
+  date: November 3
+  website: /vizsec2006/
+  proceedings: http://dl.acm.org/citation.cfm?id=1179576
+
+- year: 2005
+  title:  2nd International Workshop on Visualization for Cyber Security
+  with: <a href='http://visweek.org/'>IEEE Vis Week</a>
+  location: Minneapolis, MN, USA
+  date: October 26
+  website: http://www.cs.ucdavis.edu/~ma/VizSEC05/
+  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10259
+
+- year: 2004
+  title: Workshop on Visualization and Data Mining for Computer Security
+  with: <a href='http://www.sigsac.org/ccs.html'>ACM CCS</a>
+  location: Washington, DC, USA
+  date: October 29
+  website: http://www.cs.fit.edu/~pkc/vizdmsec04/
+  proceedings: http://dl.acm.org/citation.cfm?id=1029208
