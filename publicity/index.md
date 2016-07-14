@@ -24,3 +24,4 @@ Below is a list of the places in which VizSec has publicized itself in the past.
 * [IEEE Cypher](http://www.ieee-security.org/Calendar/submitting.html) (email cipher-cfp@ieee-security.org)
 * [Usenix](http://www.usenix.org/events/links_to_other.html) (email other_events@usenix.org)
 * [International Association for Cryptologic Research Calendar](http://www.iacr.org/events/submit.html) (form)
+* [All Conference CFP Alerts](http://allconferencecfpalerts.com/) (form)
