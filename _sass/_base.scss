@@ -76,6 +76,27 @@ li.no-bullet {
 	display:none;
 }
 
+#navbar li {
+	padding-left: 26px;
+}
+
+.nav-sep {
+	@extend .hidden-xs;
+	margin-right: 0em;
+	margin-left: 3em;
+	position: relative;
+	top: -0.2em;
+	font-size: 0.5em !important;
+	color: $vizsec_highlight;
+}
+
+.navbar-nav .fa:not(.nav-sep) {
+	font-size: 0.9em;
+	margin-top:-0.1em;
+	margin-left: 0.1em;
+	margin-right:0.1em;
+}
+
 // thanks to http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
 .page-anchor {
 	padding-top: $navbar_height;
@@ -137,12 +158,19 @@ a:active:not(.btn) {
 }
 
 #ieee {
-	margin:30px 20px 0;
+	margin:37px 30px 0;
 	height:20px;
 }
 
 .navbar-brand > img {
 	height:40px;
+	margin-top:-5px;
+}
+
+@media (min-width: $screen-sm) {
+	.navbar-brand > img {
+		margin-top:2px;
+	}
 }
 
 // the underlay stops inertia scrolling from showing whitespace
@@ -157,10 +185,9 @@ a:active:not(.btn) {
 }
 
 .navbar-nav {
-	padding-left:20px;
 	padding-top:10px;
 	font-family: $font-family-sans-serif;
-	font-size:14pt;
+	font-size:13pt;
 }
 
 .navbar-nav a {
