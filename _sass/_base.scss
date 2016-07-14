@@ -38,9 +38,15 @@ ul {
 	padding: 0px 15px 0px 15px;
 }
 
+.jumbotron > .container {
+	padding: 0px 30px 0px 30px;
+}
+
 .jumbotron .btn {
 	margin-right:14px;
 }
+
+
 
 .align-to-list {
 	margin-left: 1.8em;
@@ -96,6 +102,7 @@ li.no-bullet {
 	margin-left: 0.1em;
 	margin-right:0.1em;
 }
+
 
 // thanks to http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
 .page-anchor {
@@ -172,6 +179,8 @@ a:active:not(.btn) {
 		margin-top:2px;
 	}
 }
+
+
 
 // the underlay stops inertia scrolling from showing whitespace
 .navbar-underlay {
@@ -309,4 +318,14 @@ table.vizsec-cfp-dates {
 table.vizsec-cfp-dates tr td:first-child {
 	padding-right:10px;
 	text-align:right;
+}
+
+// for that awkward middle responsive navbar transition
+@media (max-width: $screen-md) and (min-width: $screen-sm) {
+	.jumbotron {
+		padding-top: 50px !important;
+	}
+	.navbar-nav {
+		margin-top: -15px;
+	}
 }
