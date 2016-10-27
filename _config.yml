@@ -1,7 +1,7 @@
 title: VizSec
 email: simon.walton@oerc.ox.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
-  The IEEE Symposium on Visualization for Cyber Security (VizSec) is a forum that brings together researchers and practitioners from academia, government, and industry to address the needs of the cybersecurity community through new and insightful visualization and analysis techniques.
+  The IEEE Symposium on Visualization for Cyber Security (VizSec) is a forum that brings together researchers and practitioners from academia, government, and industry to address the needs of the cyber security community through new and insightful visualization and analysis techniques.
 url: "http://vizsec.org"
 twitter_username: vizsec
 github_username:  vizsec
