@@ -12,6 +12,10 @@ Registration for VizSec 2016 is open and the program agenda is posted.
 <!-- {% include call.html %} -->
 
 
+### Proceedings on IEEE
+
+The <a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7701173">official IEEE proceedings</a> for VizSec 2016 are now live.
+
 ### Proceedings Browser
 
 For a visual overview of past papers, please see the <a href="http://vizsec.dbvis.de">Proceedings Browser</a> from long-time contributor Fabian Fischer.
