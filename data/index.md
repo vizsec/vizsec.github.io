@@ -8,7 +8,7 @@ Here is a list of potentially useful data sets for the VizSec research and devel
 
 * [Stanford Large Network Dataset Collection (SNAP)](https://snap.stanford.edu/data/index.html): Not specific to security, but there are several relevant graph data sets.
 * [APTnotes](https://github.com/aptnotes/data): APTnotes is a repository of publicly-available papers and blogs (sorted by year) related to malicious campaigns/activity/software that have been associated with vendor-defined APT (Advanced Persistent Threat) groups and/or tool-sets.
-* [almost dark web site](http://offensivecomputing.org/)
+* [Open Malware](http://www.offensivecomputing.net/): A database of live malware.
 * [Shadow Server Malware Data site](https://www.shadowserver.org/wiki/)
 * [Darpa CGC (known vulnerabilities)](https://github.com/CyberGrandChallenge/samples)
 * DNS data: [publication link](http://link.springer.com/chapter/10.1007/978-3-319-45719-2_9/fulltext.html) and [data link](https://www.activednsproject.org/) Description: more than a terabyte of unprocessed DNS PCAPs along with tens of gigabytes of de-duplicated DNS records per day. Thus, the active DNS datasets represent a significant portion of the world’s daily DNS delegation hierarchy.
