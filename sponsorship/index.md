@@ -15,7 +15,7 @@ As a supporter, we encourage you to join us at VizSec 2016, colocated with <a hr
 
 ### Support Options
 
-Please see the <a href="/files/2016/vis_prospectus_16.pdf">IEEE VIS Support Prospectus</a> for support options. For more information on becoming a sponsor, please email <a href="mailto:sponsor@vizsec.com">sponsor@vizsec.com</a>.
+Please see the <a href="/files/2016/vis_prospectus_16.pdf">IEEE VIS Support Prospectus</a> for support options. For more information on b.orging a sponsor, please email <a href="mailto:sponsor@vizsec.org">sponsor@vizsec.org</a>.
 
 
 ### Other Opportunities
