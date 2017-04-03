@@ -5,7 +5,7 @@ layout: default
 
 The IEEE VizSec Symposium is inviting support from industry, academia, and government contributors in security and data visualization.
 
-As a supporter, we encourage you to join us at VizSec 2017, held in conjunction with <a href="http://ieeevis.org">VIS 2017</a> this October in Phoenix. Supporters receive several benefits:
+As a supporter, we encourage you to join us at VizSec 2017, held in conjunction with <a href="http://ieeevis.org">VIS 2017</a> this October in Phoenix. Supporters that donate $500 or more may be eligible to receive several benefits:
 
 * <strong>Recruitment</strong> — supporters will engage with the talented students and professionals that attend VizSec and all other VIS 2017 events, many of whom are actively seeking internships, employment, and collaboration opportunities.
 * <strong>Exhibition</strong> — many levels of support include dedicated exhibition space for your organization at VIS 2017.
@@ -20,7 +20,7 @@ Please see the <a href="http://ieeevis.org/year/2017/info/exhibition/vis2017_pro
 
 ### Other Opportunities
 
-We invite support through other opportunities as well. This might include:
+We invite support through other opportunities as well. Supporters that donate $100 or more may be eligible for the following benefits:
 
 * <strong>Diversity scholarships</strong> - support underrepresented minorities in the fields of visualization and security.
 * <strong>Lunch, dinner, coffee breaks, or meetups for attendees</strong> - bring together attendees to have a targeted discussion about tools, techniques, and the state of the art in the security industry.
