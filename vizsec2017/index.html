@@ -1,5 +1,6 @@
 ---
 layout: default
+custom_css: cfp_sidebar
 ---
 
 <h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>VizSec 2017</h2>
@@ -303,21 +304,20 @@ Accepted poster abstracts will be made available on this website.
 
 <a class="page-anchor" id="dates"></a>
 <h3>Important Dates</h3>
+
 All deadlines are 5:00 PM PST.
 
-<h4>Papers and Case Studies</h4>
+{% for group in site.data.2017-important_dates %}
+<h4>{{ group.title }}</h4>
 <table class="vizsec-cfp-dates">
-	<tr><td><strong>August 8, 2017</strong></td><td>Submission for Papers and Case Studies</td></tr>
-	<tr><td><strong>September 5, 2017</strong></td><td>Author Notification for Papers and Case Studies</td></tr>
-	<tr><td><strong>October 3, 2017</strong></td><td>Camera Ready Submission and Copyright Forms for Papers</td></tr>
+	{% for item in group.dates %}
+	<tr>
+		<td><strong>{{ item.date | date: "%B %-d, %Y" }}</strong></td>
+		<td>{{ item.long }}</td>
+	</tr>
+	{% endfor %}
 </table>
-
-<h4>Posters</h4>
-<table class="vizsec-cfp-dates">
-	<tr><td><strong>September 19, 2017</strong></td><td>Abstract Submission for Posters
-	<tr><td><strong>September 30, 2017</strong></td><td>Author Notification for Posters</td></tr>
-</table>
-
+{% endfor %}
 
 <a class="page-anchor" id="committee"></a>
 <h3>Committees</h3>
@@ -353,3 +353,23 @@ All deadlines are 5:00 PM PST.
 {% endfor %}
 </ul>
 -->
+
+<a class="page-anchor" id="supporters"></a>
+<h3>Supporters</h3>
+
+<ul class="media-list">
+	{% for supporter in site.data.2017-supporters %}
+	<li class="media">
+		<div class="media-left">
+			<a href="{{ supporter.link }}">
+				<img class="media-object center-block" src="{{ supporter.image }}">
+			</a>
+		</div>
+		<div class="media-body">
+			<h5 class="media-heading">{{ supporter.title }}</h5>
+
+			{{ supporter.blurb }}
+		</div>
+	</li>
+	{% endfor %}
+</ul>
