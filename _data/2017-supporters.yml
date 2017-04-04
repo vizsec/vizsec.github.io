@@ -1,0 +1,17 @@
+- title: "IEEE Secure Development Conference (SecDev)"
+  image: "/assets/img/supporter-secdev-2017.png"
+  link: "http://secdev.ieee.org/"
+  blurb: |
+    <p>The <a href="http://secdev.ieee.org/">IEEE Secure Development Conference</a> (IEEE SecDev), sponsored by the <a href="http://cybersecurity.ieee.org/">IEEE Cybersecurity Initiative</a>, is distinguished by its focus on how to "build security in" (and not simply to discover the absence of security). Its goal is to encourage and disseminate ideas for secure system development among both academia and industry. Developers have valuable experiences and ideas that can inform academic research, and researchers have concepts, studies, and even code and tools that could benefit developers.</p>
+
+# - title: "Pending"
+#   image: "/assets/img/branding_magnifier.png"
+#   link: "#"
+#   blurb: |
+#     <p>Pending blurb.</p>
+#
+# - title: "Pending"
+#   image: "/assets/img/branding_magnifier.png"
+#   link: "#"
+#   blurb: |
+#     <p>Pending blurb.</p>
