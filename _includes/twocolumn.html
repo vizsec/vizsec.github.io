@@ -22,7 +22,7 @@
 			<div class="sidebar_dates hidden-sm hidden-xs">
 				<h4><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Important Dates</h4>
 
-				{% for group in site.data.2017-important_dates %}
+				{% for group in site.data.y2017-important_dates %}
 				<h5>{{ group.title }}</h5>
 				<table>
 					{% for item in group.dates %}
@@ -38,7 +38,7 @@
 			<div class="sidebar_supporters hidden-sm hidden-xs">
 				<h4><i class="fa fa-star" aria-hidden="true"></i> Supporters</h4>
 
-				{% for supporter in site.data.2017-supporters %}
+				{% for supporter in site.data.y2017-supporters %}
 				<p><a href="{{ supporter.link }}"><img src="{{ supporter.image }}" class="img-responsive"></a></p>
 				{% endfor %}
 				<br/>

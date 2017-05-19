@@ -318,7 +318,7 @@ Accepted poster abstracts will be made available on this website.
 
 All deadlines are 5:00 PM PST.
 
-{% for group in site.data.2017-important_dates %}
+{% for group in site.data.y2017-important_dates %}
 <h4>{{ group.title }}</h4>
 <table class="vizsec-cfp-dates">
 	{% for item in group.dates %}
@@ -335,7 +335,7 @@ All deadlines are 5:00 PM PST.
 
 <h4>Organizing Committee</h4>
 <ul>
-{% for member in site.data.2017-organizing_committee %}
+{% for member in site.data.y2017-organizing_committee %}
 	<li>
 		<span class="committee name">
 			{% if member.url %}
@@ -354,7 +354,7 @@ All deadlines are 5:00 PM PST.
 <p>To be announced.</p>
 <!--
 <ul>
-{% for member in site.data.2017-program_committee %}
+{% for member in site.data.y2017-program_committee %}
 	<li>
 		<span class="committee name">
 			{{ member.name }}
@@ -369,7 +369,7 @@ All deadlines are 5:00 PM PST.
 <h3>Supporters</h3>
 
 <ul class="media-list">
-	{% for supporter in site.data.2017-supporters %}
+	{% for supporter in site.data.y2017-supporters %}
 	<li class="media">
 		<div class="media-left">
 			<a href="{{ supporter.link }}">
