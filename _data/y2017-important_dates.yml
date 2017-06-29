@@ -21,3 +21,17 @@
     - long:  "Author Notification for Posters"
       short: "Author Notification"
       date:  2017-09-09
+
+- title: "Scholarships"
+  dates:
+    - long: "Application for Diversity Scholarships"
+      short: "Application Deadline"
+      date: 2017-08-01
+
+    - long: "Applicant Notification for Scholarships"
+      short: "Scholarship Notification"
+      date: 2017-08-15
+
+    - long: "VizSec/VIS Early Registration Deadline"
+      short: "Early Registration"
+      date: 2017-08-25
