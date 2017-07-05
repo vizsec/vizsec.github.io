@@ -1,125 +1,92 @@
 - name: Marco Angelini
-  affiliation: University of Rome La Sapienza
+  affiliation: Sapienza University of Rome
 
 - name: Dustin Arendt
-  affiliation: PNNL
+  affiliation: Air Force Research Laboratory
+
+- name: Daniel Best
+  affiliation: Pacific Northwest National Laboratory
 
 - name: Lauren Bradel
-  affiliation: US Department of Defense
+  affiliation: U.S. Department of Defense
 
 - name: Andrea Brennen
   affiliation: In-Q-Tel
 
 - name: Bram Cappers
-  affiliation: Eindhoven University of Technology
+  affiliation: University of Technology Eindhoven (Tu/e)
 
 - name: Siming Chen
   affiliation: Peking University
 
-- name: Jennifer Cowley
-  affiliation: CERT, Software Engineering Institute, Carnegie Mellon University
-
 - name: Ann Cox
-  affiliation: DHS S&T
+  affiliation: U.S. Department of Homeland Security
 
 - name: Valentino Di Donato
   affiliation: Roma Tre University
 
-- name: Sophie Engle
-  affiliation: University of San Francisco
-
 - name: Fabian Fischer
   affiliation: University of Konstanz
 
-- name: Deborah Frincke
-  affiliation: US Department of Defense
-
-- name: Carie Gates
-  affiliation: CA Labs
+- name: Carrie Gates
+  affiliation: Securelytix
 
 - name: John Gerth
   affiliation: Stanford University
 
-- name: John Goodall
-  affiliation: Oak Ridge National Laboratory
+- name: Steven Gomez
+  affiliation: Massachusetts Institute of Technology
 
-- name: Robert Gove
-  affiliation: Invincea Labs
-
-- name: Lane Harrison
-  affiliation: Worcester Polytechnic Institute
-
-- name: Dan Hubbard
-  affiliation: OpenDNS
+- name: Graig Sauer
+  affiliation: Towson University
 
 - name: Christopher Humphries
   affiliation: INRIA
 
-- name: Philip A. Legg
+- name: Philip Legg
   affiliation: University of the West of England
 
-- name: Tim Leschke
-  affiliation: US Department of Defense and Johns Hopkins University
+- name: Timothy Leschke
+  affiliation: U.S. Department of Defense, Johns Hopkins University
 
 - name: Kristen Liggett
   affiliation: Air Force Research Laboratory
 
-- name: Kwan-Liu Ma
-  affiliation: University of California at Davis
-
 - name: Frédéric Majorczyk
-  affiliation: DGA-MI
+  affiliation: DGA
 
 - name: Raffael Marty
-  affiliation: Sophos
+  affiliation: Loggly
 
 - name: Sean McKenna
   affiliation: University of Utah
 
 - name: Chris Muelder
-  affiliation: University of California at Davis
+  affiliation: Google
 
 - name: Stephen North
-  affiliation: Graphviz
-
-- name: Eric Ragan
-  affiliation: Texas A&M University
-
-- name: Giuseppe Santucci
-  affiliation: University of Rome La Sapienza
-
-- name: Graig Sauer
-  affiliation: US Department of Defense
+  affiliation: Infovisible, LLC
 
 - name: Christopher Simpson
   affiliation: National University
 
-- name: Jan-Erik Stange
-  affiliation: University of Applied Sciences, Potsdam
+- name: Awalin Sopan
+  affiliation: University of Maryland
 
-- name: Sébastien Tricaud
+- name: Sebastien Tricaud
   affiliation: Splunk
 
 - name: David Trimm
-  affiliation: US Department of Defense
-
-- name: Jarke van Wijk
-  affiliation: Eindhoven University of Technology
-
-- name: Simon Walton
-  affiliation: University of Oxford
+  affiliation: University of Maryland, Baltimore County (UMBC)
 
 - name: Sean Whalen
-  affiliation: University of San Francisco
+  affiliation: Gladstone Institutes
 
 - name: Kirsten Whitley
-  affiliation: US Department of Defense
+  affiliation: U.S. Department of Defense
 
-- name: Walt Willinger
-  affiliation: Niksun
-
-- name: Tobias Wüchner
-  affiliation: Technische Universität München
+- name: Walter Willinger
+  affiliation: NIKSUN, Inc.
 
 - name: Joseph Yuen
-  affiliation: Automated Analytics and Decision Support, DST Group, Australia
+  affiliation: Defence Science Technology Organisation
