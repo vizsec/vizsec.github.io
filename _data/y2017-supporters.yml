@@ -3,6 +3,11 @@
   link: "http://secdev.ieee.org/"
   blurb: |
     <p>The <a href="http://secdev.ieee.org/">IEEE Secure Development Conference</a> (IEEE SecDev), sponsored by the <a href="http://cybersecurity.ieee.org/">IEEE Cybersecurity Initiative</a>, is distinguished by its focus on how to "build security in" (and not simply to discover the absence of security). Its goal is to encourage and disseminate ideas for secure system development among both academia and industry. Developers have valuable experiences and ideas that can inform academic research, and researchers have concepts, studies, and even code and tools that could benefit developers.</p>
+- title: "Invincea Labs"
+  image: "/assets/img/supporter-invincealabs-2017.png"
+  link: "https://www.invincealabs.com/"
+  blurb: |
+    <p><a href="https://www.invincealabs.com/">Invincea Labs</a> invents, prototypes and engineers breakthrough technologies for government and industry, with broad commitments in multiple areas of technological innovation. Invincea Labs' projects range from situational awareness interfaces for cyber operators to distributed sensor networks, from machine learning models that learn to reverse engineer malware to embedded devices that enable and protect our nation's warfighters.</p>
 
 # - title: "Pending"
 #   image: "/assets/img/branding_magnifier.png"
