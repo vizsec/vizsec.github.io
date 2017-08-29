@@ -4,8 +4,8 @@
 - name: Dustin Arendt
   affiliation: Air Force Research Laboratory
 
-- name: Daniel Best
-  affiliation: Pacific Northwest National Laboratory
+# - name: Daniel Best
+#   affiliation: Pacific Northwest National Laboratory
 
 - name: Lauren Bradel
   affiliation: U.S. Department of Defense
@@ -28,6 +28,9 @@
 - name: Fabian Fischer
   affiliation: University of Konstanz
 
+- name: Deborah Frincke
+  affiliation: National Security Agency
+
 - name: Carrie Gates
   affiliation: Securelytix
 
@@ -36,9 +39,6 @@
 
 - name: Steven Gomez
   affiliation: Massachusetts Institute of Technology
-
-- name: Graig Sauer
-  affiliation: Towson University
 
 - name: Christopher Humphries
   affiliation: INRIA
@@ -49,8 +49,8 @@
 - name: Timothy Leschke
   affiliation: U.S. Department of Defense, Johns Hopkins University
 
-- name: Kristen Liggett
-  affiliation: Air Force Research Laboratory
+# - name: Kristen Liggett
+#   affiliation: Air Force Research Laboratory
 
 - name: Frédéric Majorczyk
   affiliation: DGA
@@ -66,6 +66,9 @@
 
 - name: Stephen North
   affiliation: Infovisible, LLC
+
+- name: Graig Sauer
+  affiliation: Towson University
 
 - name: Christopher Simpson
   affiliation: National University
@@ -88,5 +91,5 @@
 - name: Walter Willinger
   affiliation: NIKSUN, Inc.
 
-- name: Joseph Yuen
-  affiliation: Defence Science Technology Organisation
+# - name: Joseph Yuen
+#   affiliation: Defence Science Technology Organisation
