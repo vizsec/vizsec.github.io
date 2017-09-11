@@ -326,6 +326,58 @@ table.vizsec-cfp-dates tr td:first-child {
 	text-align:right;
 }
 
+// program style (added by sjengle)
+
+table.program {
+  border-collapse: collapse;
+}
+
+table.program tr {
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: top;
+}
+
+table.program tr:last-child {
+  border-bottom: none;
+}
+
+table.program td {
+  padding: 8px 2px;
+}
+
+table.program tr td:nth-child(1) {
+  text-align: right;
+  white-space: nowrap;
+  padding-left: 0px;
+}
+
+table.program tr td:nth-child(2) {
+  text-align: center;
+  white-space: nowrap;
+}
+
+table.program tr td:nth-child(3) {
+  text-align: left;
+  white-space: nowrap;
+}
+
+table.program tr td:last-child {
+  text-align: left;
+  padding-left: 4px;
+  padding-right: 0px;
+}
+
+table.program td h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+table.program td p {
+  margin: 8px 0px 0px 0px;
+}
+
 // for that awkward middle responsive navbar transition
 @media (max-width: $screen-md) and (min-width: $screen-sm) {
 	.jumbotron {
