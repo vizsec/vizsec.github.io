@@ -1,3 +1,12 @@
+- year: 2017
+  title: 14th IEEE Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2017/welcome'>IEEE VIS</a>
+  location: Phoenix, AZ, USA
+  date: October 2
+  acceptance: 10/27 (37%)
+  website: /vizsec2017/
+  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8052583
+
 - year: 2016
   title: 13th International Symposium on Visualization for Cyber Security
   with: <a href='http://ieeevis.org/year/2016/info/vis-welcome/welcome'>IEEE VIS</a>
