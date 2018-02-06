@@ -1,3 +1,4 @@
+
 - name: Diane Staheli
   role: General Chair Chair
   affiliation: MIT Lincoln Laboratory
@@ -24,12 +25,11 @@
 - name: John Goodall
   role: Chair at Large
   affiliation: Oak Ridge National Laboratory
-  url: Need to Update
+  url: http://jgoodall.me
 
 - name: Stoney Trent
   role: Poster Chair
   affiliation: United States Army
-  url: Need to Update This
 
 - name: Daniel Best
   role: Publications Chair
