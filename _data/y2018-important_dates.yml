@@ -1,0 +1,43 @@
+- title: "Call for Papers"
+  dates:
+    - long: "Call For Papers Open"
+      short: "Call For Papers Open"
+      date: 2018-03-07 
+
+- title: "Papers and Short Papers"
+  dates:
+    - long:  'Submission for Papers and Short Papers <span class="label label-info">Extended</span>'
+      short: 'Submission Deadline <span class="label label-info">Extended</span>'
+      date:  2018-07-21
+
+    - long:  "Author Notification for Papers and Short Papers"
+      short: "Author Notification"
+      date:  2018-08-15
+
+    - long:  "Camera Ready Submission and Copyright Forms for Papers"
+      short: "Camera Ready Deadline"
+      date:  2017-09-12
+
+- title: "Posters"
+  dates:
+    - long:  "Abstract Submission for Posters"
+      short: "Abstract Deadline"
+      date:  2018-08-29
+
+    - long:  "Author Notification for Posters"
+      short: "Author Notification"
+      date:  2018-09-09
+
+- title: "Scholarships"
+  dates:
+    - long: "Application for Diversity Scholarships"
+      short: "Application Deadline"
+      date: 2018-08-01
+
+    - long: "Applicant Notification for Scholarships"
+      short: "Scholarship Notification"
+      date: 2018-08-15
+
+    - long: "VizSec/VIS Early Registration Deadline"
+      short: "Early Registration"
+      date: 2018-08-25
