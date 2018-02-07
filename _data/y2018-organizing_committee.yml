@@ -10,7 +10,8 @@
 
 - name: Jorn Kohlhamme
   role: Program Co-Chair
-  affiliation: Need to update this
+  affiliation: Fraunhofer IGD
+  url: https://www.igd.fraunhofer.de/en/institute/about-us/contact-persons/jorn-kohlhammer
 
 - name: Sophie Engle
   role: Chair at Large
@@ -39,6 +40,7 @@
 - name: Nicolas Prigent
   role: Publicity Chair
   affiliation: LSTI
+  url: https://twitter.com/NeeKoP
 
 - name: Robert Gove
   role: Sponsorship Chair
