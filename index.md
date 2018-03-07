@@ -5,7 +5,7 @@ custom_css: show_past_years
 
 <h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>VizSec 2018</h2>
 
-<!-- The <a href="/vizsec2017/#cfp">call for papers</a> for VizSec 2018 is now available! -->
+The <a href="/vizsec2018/#cfp">call for papers</a> for VizSec 2018 is now available!
 
 <p><a class="btn btn-primary btn-lg pull-left" href="/vizsec2018" role="button">Learn more &raquo;</a></p> <br /><br /><br />
 
