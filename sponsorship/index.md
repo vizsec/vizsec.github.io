@@ -27,6 +27,7 @@ We invite support through other opportunities as well. Sponsors that donate $100
 * <strong>Best Short Paper or Poster Award</strong> - encourage researchers to make large strides in advancing the state of the art of the security community.
 * <strong>Open Source Award</strong> - incentivize authors to release their data and tools open source, expanding the resources available to developers, practitioners, and researchers.
 * <strong>Supporters' Panel</strong> - participate in a panel to discuss challenges in the security industry, current approaches to solutions, and opportunities for research.
+* <strong>Exposure</strong> — In addition to the advertising provided by VIS, your organization's logos will be prominently displayed at VizSec, on the VizSec web site and social media, and in any VizSec conference materials. In addition, your organization's job openings will be linked from the VizSec web site and social media prior to the conference as well as posted on a sponsors-only job board during the conference.
 
 For more information, or to inquire about other support opportunities, please email <a href="mailto:sponsor@vizsec.org">sponsor@vizsec.org</a>.
 
