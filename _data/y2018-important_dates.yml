@@ -8,15 +8,15 @@
   dates:
     - long:  'Submission for Papers and Short Papers'
       short: 'Submission Deadline'
-      date:  2018-07-21
+      date:  2018-07-18
 
     - long:  "Author Notification for Papers and Short Papers"
       short: "Author Notification"
-      date:  2018-08-15
+      date:  2018-08-10
 
     - long:  "Camera Ready Submission and Copyright Forms for Papers"
       short: "Camera Ready Deadline"
-      date:  2017-09-12
+      date:  2017-09-14
 
 - title: "Posters"
   dates:
