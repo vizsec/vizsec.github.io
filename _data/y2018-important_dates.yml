@@ -6,17 +6,17 @@
 
 - title: "Papers and Short Papers"
   dates:
-    - long:  'Submission for Papers and Short Papers'
-      short: 'Submission Deadline'
-      date:  2018-07-18
+    - long:  'Submission for Papers and Short Papers <span class="label label-info">Extended</span>'
+      short: 'Submission Deadline <span class="label label-info">Extended</span>'
+      date:  2018-07-22
 
-    - long:  "Author Notification for Papers and Short Papers"
-      short: "Author Notification"
-      date:  2018-08-10
+    - long:  'Author Notification for Papers and Short Papers <span class="label label-info">Updated</span>'
+      short: 'Author Notification <span class="label label-info">Updated</span>'
+      date:  2018-08-15
 
-    - long:  "Camera Ready Submission and Copyright Forms for Papers"
-      short: "Camera Ready Deadline"
-      date:  2017-09-14
+    - long:  'Camera Ready Submission and Copyright Forms for Papers <span class="label label-info">Updated</span>'
+      short: 'Camera Ready Deadline <span class="label label-info">Updated</span>'
+      date:  2017-08-24
 
 - title: "Posters"
   dates:
