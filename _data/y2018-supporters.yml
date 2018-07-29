@@ -14,9 +14,9 @@
    link: "https://punchcyber.com/"
    blurb: |
      <p>PUNCH is a boutique cyber-consulting firm that provides advanced analytics and strategic support to government and commercial clients. Our primary focus is in improving an organization’s awareness of and ability to manage a growing cyber threat environment. We focus on bolstering cyber preparedness by improving an organization’s analysts and the tools at their disposal.</p>
-# #
-# # - title: "Pending"
-# #   image: "/assets/img/branding_magnifier.png"
-# #   link: "#"
-# #   blurb: |
-# #     <p>Pending blurb.</p>
+
+ - title: "Fraunhofer IGD"
+   image: "/assets/img/IGDLogo.jpg"
+   link: "https://www.igd.fraunhofer.de/en"
+   blurb: |
+     <p>Fraunhofer IGD is one of the world’s leading institutes for applied research in Visual Computing, including computer graphics, computer vision, as well as virtual and augmented reality. We are part of Germany's largest research network on cyber-security for IT-based systems called CRISP, where IGD is responsible for user-centered visual analytics and biometric procedures.</p>
