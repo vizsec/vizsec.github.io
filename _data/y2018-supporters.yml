@@ -20,3 +20,15 @@
    link: "https://www.igd.fraunhofer.de/en"
    blurb: |
      <p>Fraunhofer IGD is one of the world’s leading institutes for applied research in Visual Computing, including computer graphics, computer vision, as well as virtual and augmented reality. We are part of Germany's largest research network on cyber-security for IT-based systems called CRISP, where IGD is responsible for user-centered visual analytics and biometric procedures.</p>
+
+- title: "Data Machines Corp"
+   image: "/assets/img/IGDLogo.jpg"
+   link: "https://www.igd.fraunhofer.de/en"
+   blurb: |
+     <p>Data Machines Corp. is a small company dedicated to researching and advancing the state of the art in data analytics, multi-user cloud data analytic architectures, and large scale data processing pipelines.</p>
+
+- title: "FireEye"
+   image: "/assets/img/fireeyelogo.jpg"
+   link: "https://www.fireeye.com/"
+   blurb: |
+     <p>FireEye is the leader in intelligence-led security-as-a-service. Working as a seamless, scalable extension of customer security operations, FireEye offers a single platform that blends innovative security technologies, nation-state grade threat intelligence, and world-renowned Mandiant® consulting. With this approach, FireEye eliminates the complexity and burden of cyber security for organizations struggling to prepare for, prevent, and respond to cyber attacks. FireEye has over 7,000 customers across 67 countries, including more than 45 percent of the Forbes Global 2000.</p>
