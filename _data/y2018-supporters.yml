@@ -25,6 +25,7 @@
  - title: "Data Machines Corp"
    image: "/assets/img/datamachines.png"
    link: "http://www.datamachines.io/"
+   jobs: <a href="http://www.datamachines.io/job-openings">Data Machine Jobs</a>
    blurb: |
      <p>Data Machines Corp. is a small company dedicated to researching and advancing the state of the art in data analytics, multi-user cloud data analytic architectures, and large scale data processing pipelines.</p>
 
