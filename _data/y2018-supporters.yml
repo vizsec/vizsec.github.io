@@ -6,8 +6,9 @@
  - title: "Two Six Labs"
    image: "/assets/img/supporter-twosixlabs-2017.png"
    link: "https://www.twosixlabs.com/"
+   jobs: <a href="https://careers-twosixlabs.icims.com/jobs/1091/front-end-software-engineer/job">Front End Software Engineer</a>
    blurb: |
-     <p><a href="https://www.twosixlabs.com/">Two Six Labs</a> invents, prototypes and engineers breakthrough technologies for government and industry, with broad commitments in multiple areas of technological innovation. Two Six Labs' projects range from situational awareness interfaces for cyber operators to distributed sensor networks, from machine learning models that learn to reverse engineer malware to embedded devices that enable and protect our nation's warfighters.</p>
+     <p>Two Six Labs invents, prototypes and engineers breakthrough technologies for government and industry, with broad commitments in multiple areas of technological innovation. Two Six Labs' projects range from situational awareness interfaces for cyber operators to distributed sensor networks, from machine learning models that learn to reverse engineer malware to embedded devices that enable and protect our nation's warfighters.</p>
 
  - title: "PUNCH"
    image: "/assets/img/Punchv2.png"
@@ -24,6 +25,7 @@
  - title: "Data Machines Corp"
    image: "/assets/img/datamachines.png"
    link: "http://www.datamachines.io/"
+   jobs: <a href="http://www.datamachines.io/job-openings">Data Machine Jobs</a>
    blurb: |
      <p>Data Machines Corp. is a small company dedicated to researching and advancing the state of the art in data analytics, multi-user cloud data analytic architectures, and large scale data processing pipelines.</p>
 
