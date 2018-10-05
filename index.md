@@ -7,9 +7,9 @@ custom_css: show_past_years
 
 The <a href="/vizsec2018/#cfp">call for papers</a> for VizSec 2018 is now available!
 
-<!--<p><a class="btn btn-primary btn-lg pull-left" href="/vizsec2018" role="button">Learn more &raquo;</a></p> <br /><br /><br />
+<p><a class="btn btn-primary btn-lg pull-left" href="/vizsec2018" role="button">Learn more &raquo;</a></p> <br /><br /><br />
 
-{% include call.html %} -->
+{% include call.html %}
 
 
 ### Proceedings Browser
