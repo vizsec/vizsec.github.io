@@ -1,95 +1,116 @@
-# - name: Marco Angelini
-#   affiliation: Sapienza University of Rome
+ - name: Marco Angelini
+   affiliation: Sapienza University of Rome
 
-# - name: Dustin Arendt
-#   affiliation: Air Force Research Laboratory
+ - name: Dustin Arendt
+   affiliation: Air Force Research Laboratory
 
-# # - name: Daniel Best
-# #   affiliation: Pacific Northwest National Laboratory
+ - name: Daniel Best
+   affiliation: Pacific Northwest National Laboratory
 
-# - name: Lauren Bradel
-#   affiliation: U.S. Department of Defense
+ - name: Lauren Bradel
+   affiliation: U.S. Department of Defense
 
-# - name: Andrea Brennen
-#   affiliation: In-Q-Tel
+ - name: Andrea Brennen
+   affiliation: In-Q-Tel
 
-# - name: Bram Cappers
-#   affiliation: University of Technology Eindhoven (Tu/e)
+ - name: Laurin  Buchanan
+ - affiliation: Secure Decisions
 
-# - name: Siming Chen
-#   affiliation: Peking University
+ - name: Bram Cappers
+   affiliation: University of Technology Eindhoven (Tu/e)
 
-# - name: Ann Cox
-#   affiliation: U.S. Department of Homeland Security
+ - name: Siming Chen
+   affiliation: Peking University
 
-# - name: Valentino Di Donato
-#   affiliation: Roma Tre University
+ - name: Ann Cox
+   affiliation: U.S. Department of Homeland Security
 
-# - name: Fabian Fischer
-#   affiliation: University of Konstanz
+ - name: Sophie  Engle
+   affiliation: University of San Francisco
 
-# - name: Deborah Frincke
-#   affiliation: National Security Agency
+ - name: Fabian Fischer
+   affiliation: University of Konstanz
 
-# - name: Carrie Gates
-#   affiliation: Securelytix
+ - name: Carrie Gates
+   affiliation: Securelytix
 
-# - name: John Gerth
-#   affiliation: Stanford University
+ - name: John Gerth
+   affiliation: Stanford University
 
-# - name: Steven Gomez
-#   affiliation: Massachusetts Institute of Technology
+ - name: Mohammad  Ghoniem
+  affiliation: Luxembourg Institute of Science and Technology
 
-# - name: Christopher Humphries
-#   affiliation: INRIA
+ - name: Robert  Gove
+   affiliation: Two Six Labs
 
-# - name: Philip Legg
-#   affiliation: University of the West of England
+ - name: Lane Harrison
+   affiliation: Worcester Polytechnic Institute
 
-# - name: Timothy Leschke
-#   affiliation: U.S. Department of Defense, Johns Hopkins University
+ - name: Christopher Humphries
+   affiliation: INRIA
 
-# # - name: Kristen Liggett
-# #   affiliation: Air Force Research Laboratory
+ - name: Jörn  Kohlhammer
+   affiliation: Fraunhofer IGD
 
-# - name: Frédéric Majorczyk
-#   affiliation: DGA
+ - name: Philip Legg
+   affiliation: University of the West of England
 
-# - name: Raffael Marty
-#   affiliation: Loggly
+ - name: Timothy Leschke
+   affiliation: U.S. Department of Defense, Johns Hopkins University
 
-# - name: Sean McKenna
-#   affiliation: University of Utah
+ - name: Kristen Liggett
+   affiliation: Air Force Research Laboratory
 
-# - name: Chris Muelder
-#   affiliation: Google
+ - name: Frédéric Majorczyk
+   affiliation: DGA
 
-# - name: Stephen North
-#   affiliation: Infovisible, LLC
+ - name: Raffael Marty
+   affiliation: Loggly
 
-# - name: Graig Sauer
-#   affiliation: Towson University
+ - name: Sean McKenna
+   affiliation: University of Utah
 
-# - name: Christopher Simpson
-#   affiliation: National University
+ - name: Chris Muelder
+   affiliation: Google
 
-# - name: Awalin Sopan
-#   affiliation: FireEye, Inc.
+ - name: Stephen North
+   affiliation: Infovisible, LLC
 
-# - name: Sebastien Tricaud
-#   affiliation: Splunk
+ - name:  Celeste Paul
+   affiliation: U.S. Department of Defense, University of Maryland
 
-# - name: David Trimm
-#   affiliation: University of Maryland, Baltimore County (UMBC)
+ - name: Nicolas Prigent
+   affiliation: LSTI
 
-# - name: Sean Whalen
-#   affiliation: Gladstone Institutes
+ - name: Noëlle  Rakotondravony
+   affiliation: Universität Passau
 
-# - name: Kirsten Whitley
-#   affiliation: U.S. Department of Defense
+ - name: Rosa  Romero-Gómez
+   affiliation: Uncharted Field Services Corporation
 
-# - name: Walter Willinger
-#   affiliation: NIKSUN, Inc.
+ - name: Giuseppe  Santucci
+   affiliation: University of Rome "La Sapienza"
 
-# # - name: Joseph Yuen
-# #   affiliation: Defence Science Technology Organisation
+ - name: Graig Sauer
+   affiliation: U.S. Department of Defense, Towson University
+
+ - name: Christopher Simpson
+   affiliation: National University
+
+ - name: Awalin Sopan
+   affiliation: FireEye, Inc.
+
+ - name: Diane Staheli
+   affiliation: MIT Lincoln Laboratory
+
+ - name: Sebastien Tricaud
+   affiliation: Splunk
+
+ - name: David Trimm
+   affiliation: University of Maryland, Baltimore County (UMBC)
+
+ - name: Kirsten Whitley
+   affiliation: U.S. Department of Defense
+
+ - name: Joseph Yuen
+   affiliation: Defence Science Technology Organisation
