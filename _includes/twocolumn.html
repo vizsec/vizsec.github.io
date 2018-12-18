@@ -19,30 +19,30 @@
 				<i class="fa fa-twitter" aria-hidden="true"></i> Follow <a href="https://twitter.com/vizsec">@vizsec</a> on Twitter!
 				</p>
 			</div>
-			<div class="sidebar_dates hidden-sm hidden-xs">
-				<h4><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Important Dates</h4>
+			<!--<div class="sidebar_dates hidden-sm hidden-xs">-->
+				<!--<h4><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Important Dates</h4>-->
 
-				{% for group in site.data.y2018-important_dates %}
-				<h5>{{ group.title }}</h5>
-				<table>
-					{% for item in group.dates %}
-					<tr>
-						<th>{{ item.date | date: "%b %-d" }}</th>
-						<td>{{ item.short }}</td>
-					</tr>
-					{% endfor %}
-				</table>
-				{% endfor %}
+				<!--{% for group in site.data.y2018-important_dates %}-->
+				<!--<h5>{{ group.title }}</h5>-->
+				<!--<table>-->
+					<!--{% for item in group.dates %}-->
+					<!--<tr>-->
+						<!--<th>{{ item.date | date: "%b %-d" }}</th>-->
+						<!--<td>{{ item.short }}</td>-->
+					<!--</tr>-->
+					<!--{% endfor %}-->
+				<!--</table>-->
+				<!--{% endfor %}-->
 
-			</div>
-			<div class="sidebar_supporters hidden-sm hidden-xs">
-				<h4><i class="fa fa-star" aria-hidden="true"></i> Supporters</h4>
+			<!--</div>-->
+			<!--<div class="sidebar_supporters hidden-sm hidden-xs">-->
+				<!--<h4><i class="fa fa-star" aria-hidden="true"></i> Supporters</h4>-->
 
-				{% for supporter in site.data.y2018-supporters %}
-				<p><a href="{{ supporter.link }}"><img src="{{ supporter.image }}" class="img-responsive"></a></p>
-				{% endfor %}
-				<br/>
-			</div>
+				<!--{% for supporter in site.data.y2018-supporters %}-->
+				<!--<p><a href="{{ supporter.link }}"><img src="{{ supporter.image }}" class="img-responsive"></a></p>-->
+				<!--{% endfor %}-->
+				<!--<br/>-->
+			<!--</div>-->
 			<div>
 				<h4><i class="fa fa-bullhorn" aria-hidden="true"></i> VizSec News</h4>
 				<ul>
