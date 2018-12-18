@@ -1,47 +1,12 @@
-#
-#- name: Diane Staheli
-#  role: General Chair Chair
-#  affiliation: MIT Lincoln Laboratory
-#  url: https://www.ll.mit.edu/mission/cybersec/cybersec-bios/staheli-bio.html
-#
-#- name: Celeste Lyn Paul
-#  role: Program Co-Chair
-#  affiliation: US Department of Defense
-#
-#- name: Jörn Kohlhammer
-#  role: Program Co-Chair
-#  affiliation: Fraunhofer IGD
-#  url: https://www.igd.fraunhofer.de/en/institute/about-us/contact-persons/jorn-kohlhammer
-#
- - name: Sophie Engle
-   role: Chair at Large
-   affiliation: University of San Francisco
-   url: http://sjengle.cs.usfca.edu/
+- name: Sophie Engle
+  role: Chair at Large
+  affiliation: University of San Francisco
+  url: http://sjengle.cs.usfca.edu/
 
-# - name: Lane Harrison
-#   role: Chair at Large
-#   affiliation: Worcester Polytechnic Institute
-#   url: http://web.cs.wpi.edu/~ltharrison/
-
- - name: John Goodall
-   role: Chair at Large
-   affiliation: Oak Ridge National Laboratory
-   url: http://jgoodall.me
-
-#- name: Stoney Trent
-#  role: Poster Chair
-#  affiliation: United States Army
-#
-#- name: Daniel Best
-#  role: Publications Chair
-#  affiliation: Pacific Northwest National Laboratory
-#  url: http://www.pnnl.gov
-#
-#- name: Nicolas Prigent
-#  role: Publicity Chair
-#  affiliation: LSTI
-#  url: https://twitter.com/NeeKoP
-
+- name: John Goodall
+  role: Chair at Large
+  affiliation: Oak Ridge National Laboratory
+  url: http://jgoodall.me
 
 - name: Robert Gove
   role: Chair
@@ -52,3 +17,42 @@
   role: Web Chair
   affiliation: FireEye, Inc.
   url: http://awalinsopan.com
+
+  #- name: Stoney Trent
+  #  role: Poster Chair
+  #  affiliation: United States Army
+  #
+  #- name: Daniel Best
+  #  role: Publications Chair
+  #  affiliation: Pacific Northwest National Laboratory
+  #  url: http://www.pnnl.gov
+  #
+  #- name: Nicolas Prigent
+  #  role: Publicity Chair
+  #  affiliation: LSTI
+  #  url: https://twitter.com/NeeKoP
+
+
+  #
+  #- name: Diane Staheli
+  #  role: General Chair Chair
+  #  affiliation: MIT Lincoln Laboratory
+  #  url: https://www.ll.mit.edu/mission/cybersec/cybersec-bios/staheli-bio.html
+  #
+  #- name: Celeste Lyn Paul
+  #  role: Program Co-Chair
+  #  affiliation: US Department of Defense
+  #
+  #- name: Jörn Kohlhammer
+  #  role: Program Co-Chair
+  #  affiliation: Fraunhofer IGD
+  #  url: https://www.igd.fraunhofer.de/en/institute/about-us/contact-persons/jorn-kohlhammer
+
+
+  # - name: Lane Harrison
+  #   role: Chair at Large
+  #   affiliation: Worcester Polytechnic Institute
+  #   url: http://web.cs.wpi.edu/~ltharrison/
+
+  #
+
