@@ -17,17 +17,17 @@
    role: Chair at Large
    affiliation: University of San Francisco
    url: http://sjengle.cs.usfca.edu/
-#
-## - name: Lane Harrison
-##   role: Chair at Large
-##   affiliation: Worcester Polytechnic Institute
-##   url: http://web.cs.wpi.edu/~ltharrison/
-#
+
+# - name: Lane Harrison
+#   role: Chair at Large
+#   affiliation: Worcester Polytechnic Institute
+#   url: http://web.cs.wpi.edu/~ltharrison/
+
  - name: John Goodall
    role: Chair at Large
    affiliation: Oak Ridge National Laboratory
    url: http://jgoodall.me
-#
+
 #- name: Stoney Trent
 #  role: Poster Chair
 #  affiliation: United States Army
@@ -41,7 +41,7 @@
 #  role: Publicity Chair
 #  affiliation: LSTI
 #  url: https://twitter.com/NeeKoP
-#
+
 
 - name: Robert Gove
   role: Chair
