@@ -1,3 +1,13 @@
+- year: 2018
+  title: 15th IEEE Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2018/welcome'>IEEE VIS</a>
+  location: Berlin, Germny
+  date: October 22
+  acceptance: (35%)
+  website: /vizsec2018/
+  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8052583
+#   get the acceptance rate from the usb front matter
+
 - year: 2017
   title: 14th IEEE Symposium on Visualization for Cyber Security
   with: <a href='http://ieeevis.org/year/2017/welcome'>IEEE VIS</a>
