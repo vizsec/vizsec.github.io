@@ -43,11 +43,11 @@
 #  url: https://twitter.com/NeeKoP
 #
 
-#- name: Robert Gove
-#  role: Chair
-#  affiliation: Two Six Labs
-#  url: https://www.twosixlabs.com/
-#
-#- name: Graig Sauer
-#  role: Web Chair
-#  affiliation: US Department of Defense
+- name: Robert Gove
+  role: Chair
+  affiliation: Two Six Labs
+  url: https://www.twosixlabs.com/
+
+- name: Awalin Sopan
+  role: Web Chair
+  affiliation: FireEye, Inc.
