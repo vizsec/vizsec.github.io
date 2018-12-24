@@ -24,12 +24,12 @@
 
 - name: Chris Bryan
   role: Poster Co-Chair
-  affiliation:  Arizona State University
+  affiliation: Arizona State University
   url: https://chrisbryan.github.io/
 
 - name: Sean McKenna
   role: Poster Co-Chair
-  affiliation:  Lucid Software Inc
+  affiliation: Lucid Software Inc
   url: https://mckennapsean.com/
 
 - name: Nicolas Prigent
@@ -37,7 +37,7 @@
   affiliation: LSTI
   url: https://twitter.com/NeeKoP
 
-- name:  Parnian Najafi
+- name: Parnian Najafi
   role: Sponsorship Chair
   affiliation: FireEye, Inc
   url: http://mason.gmu.edu/~pnajafib/
