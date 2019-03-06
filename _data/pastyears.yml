@@ -5,7 +5,7 @@
   date: October 22
   acceptance: (35%)
   website: /vizsec2018/
-  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8052583
+#  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8052583
 #   get the acceptance rate from the usb front matter
 
 - year: 2017
