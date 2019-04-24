@@ -5,7 +5,7 @@ layout: default
 The IEEE VizSec Symposium is inviting support from industry, academia, and government contributors in security and data visualization. As a supporter, we encourage you to join us at VizSec 2019, held in conjunction with VIS 2019 this October in Vancouver, Canada.
 All support levels will receive the following benefit:
 
-* **Exposure**  — your organization’s logo will be prominently displayed at VizSec, on the VizSec web site, on social media, and in any conference materials.
+* **Exposure**  — your organization’s logo will be prominently displayed at VizSec, on the VizSec website, on social media, and in any conference materials.
  
 Supporters that donate $350 CAD will receive additional benefits from VizSec:
 * **Recruitment**  — supporters will benefit from advertising assistance for one job posting. VizSec will advertise your job posting on VizSec’s website and social media, as well as at the VizSec event.
