@@ -29,7 +29,7 @@ We invite support through other opportunities as well, including:
 
 ### Contact Information
 
-For more information on becoming a supporter, or to inquire about other support opportunities, please email sponsor@vizsec.org.
+For more information on becoming a supporter, or to inquire about other support opportunities, please email [sponsor@vizsec.org](mailto:sponsor@vizsec.org).
 
 ### VizSec Highlights
 
