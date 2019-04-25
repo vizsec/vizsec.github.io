@@ -3,21 +3,27 @@ title: VizSec Sponsorship Opportunities
 layout: default
 ---
 The IEEE VizSec Symposium is inviting support from industry, academia, and government contributors in security and data visualization. As a supporter, we encourage you to join us at VizSec 2019, held in conjunction with VIS 2019 this October in Vancouver, Canada.
-
+<br/>
 All support levels will receive the following benefit:
 
 * **Exposure**  — your organization’s logo will be prominently displayed at VizSec, on the VizSec website, on social media, and in any conference materials.
- 
- 
+
+<br/>
+
 Supporters that donate $350 CAD will receive additional benefits from VizSec:
+
 * **Recruitment**  — supporters will benefit from advertising assistance for one job posting. VizSec will advertise your job posting on VizSec’s website and social media, as well as at the VizSec event.
  
- 
+<br/> 
+
 Supporters that donate $650 CAD will receive additional benefits from VizSec:
+
 * **Recruitment** — supporters will benefit from advertising assistance for two job postings. VizSec will advertise your job postings on VizSec’s web site and social media, as well as at the VizSec event.
 
+<br/>
 
 In addition to the above benefits, supporters at the $1,500 CAD level or above may be eligible to receive several additional benefits from VIS (see the VIS Supporter Prospectus for additional information):
+
 * **Recruitment** — some levels of support include access to the CVs of the talented students and professionals that attend VizSec and all other VIS 2019 events who are actively seeking internships and employment.
 * **Exhibition** — many levels of support include dedicated exhibition space for your organization at VIS 2019.
 * **Registration** — most levels include one or more complimentary registrations for representatives from your organization.
@@ -25,6 +31,7 @@ In addition to the above benefits, supporters at the $1,500 CAD level or above m
 
 
 ### Other Opportunities
+
 We invite support through other opportunities as well, including:
 
 * **Diversity scholarships** - support underrepresented minorities in the fields of visualization and security.
