@@ -6,7 +6,7 @@ url: "https://vizsec.org"
 twitter_username: vizsec
 github_username:  vizsec
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
