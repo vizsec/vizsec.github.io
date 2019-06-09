@@ -11,45 +11,43 @@ body {
 
 // headers are all sans serif; body is serif
 h1, h2, h3, h4, h5, h6 {
-	font-family: $font-family-sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
 h2, h3 {
-	margin-top:20px;
-	margin-bottom:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h4 {
-	margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 ul {
-    list-style: none;
-    padding:0;
-    margin:0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header-magnifier {
-	height:25px;
-	margin-right:10px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .jumbotron {
-	padding: 0px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
 }
 
 .jumbotron > .container {
-	padding: 0px 30px 0px 30px;
+  padding: 0px 30px 0px 30px;
 }
 
 .jumbotron .btn {
-	margin-right:14px;
+  margin-right: 14px;
 }
 
-
-
 .align-to-list {
-	margin-left: 1.8em;
+  margin-left: 1.8em;
 }
 
 li {
@@ -63,206 +61,204 @@ li:before {
 }
 
 li.no-bullet {
-	content: "" !important;
+  content: "" !important;
   list-style: none;
   list-style-type: none;
 }
 
 .vspace {
-	margin-top:10px;
+  margin-top: 10px;
 }
 
 .vspacebig {
-	margin-top:20px;
+  margin-top: 20px;
 }
 
 // by default, the sidebar 'past years' list is hidden
 // it is invoked by page-specific css in the page's Liquid bits
 .sidebar_extraneous {
-	display:none;
+  display: none;
 }
 
 #navbar li {
-	padding-left: 26px;
+  padding-left: 26px;
 }
 
 .nav-sep {
-	@extend .hidden-xs;
-	margin-right: 0em;
-	margin-left: 3em;
-	position: relative;
-	top: -0.2em;
-	font-size: 0.5em !important;
-	color: $vizsec_highlight;
+  @extend .hidden-xs;
+  margin-right: 0em;
+  margin-left: 3em;
+  position: relative;
+  top: -0.2em;
+  font-size: 0.5em !important;
+  color: $vizsec_highlight;
 }
 
 .navbar-nav .fa:not(.nav-sep) {
-	font-size: 0.9em;
-	margin-top:-0.1em;
-	margin-left: 0.1em;
-	margin-right:0.1em;
+  font-size: 0.9em;
+  margin-top: -0.1em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
 }
 
 // thanks to http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
 .page-anchor {
-	padding-top: $navbar_height;
-	margin-top: (-$navbar_height);
-	display: inline-block;
-	height:1px;
+  padding-top: $navbar_height;
+  margin-top: (-$navbar_height);
+  display: inline-block;
+  height: 1px;
 }
 
 .footer {
-	padding-top:10px;
-	width: 100%;
-	height: 80px;
-	background-color: $vizsec_light;
+  padding-top: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: $vizsec_light;
 }
 
 .footer > div {
-	border-top: 7px solid $vizsec_highlight;
-	background-color: $vizsec_dark;
-	font-family: $font-family-sans-serif;
-	text-align:center;
-	color: $vizsec_light;
-	padding:30px 0px 30px 0px;
+  border-top: 7px solid $vizsec_highlight;
+  background-color: $vizsec_dark;
+  font-family: $font-family-sans-serif;
+  text-align: center;
+  color: $vizsec_light;
+  padding: 30px 0px 30px 0px;
 }
 
 .page-content-default {
-	background: white;
-	padding-top:20px;
-	min-height: 700px;
-	padding-bottom: 50px;
+  background: white;
+  padding-top: 20px;
+  min-height: 700px;
+  padding-bottom: 50px;
 }
 
 .page-content {
-	background: white;
+  background: white;
 }
 
 a:link:not(.btn),
 a:visited:not(.btn),
 a:hover:not(.btn),
 a:active:not(.btn) {
-	text-decoration: none;
-	border-bottom: 1px dotted $vizsec_dark;
+  text-decoration: none;
+  border-bottom: 1px dotted $vizsec_dark;
 }
 
 .sidebar > div:not(:last-child) {
-	margin-bottom:25px;
+  margin-bottom: 25px;
 }
 
 .sidebar {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .btn {
-	font-family: $font-family-sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
 .jumbotron {
-	color:$vizsec_light;
-	padding-top:0px;
-	padding-bottom:20px;
-	margin:0px;
-	border-bottom: 7px solid $vizsec_highlight;
+  color: $vizsec_light;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin: 0px;
+  border-bottom: 7px solid $vizsec_highlight;
 }
 
 .highlight {
-	color: $vizsec_highlight;
+  color: $vizsec_highlight;
 }
 
 #ieee {
-	margin:37px 30px 0;
-	height:20px;
+  margin: 37px 30px 0;
+  height: 20px;
 }
 
 .navbar-brand > img {
-	height:40px;
-	margin-top:-5px;
+  height: 40px;
+  margin-top: -5px;
 }
 
 @media (min-width: $screen-sm) {
-	.navbar-brand > img {
-		margin-top:2px;
-	}
+  .navbar-brand > img {
+    margin-top: 2px;
+  }
 }
-
-
 
 // the underlay stops inertia scrolling from showing whitespace
 .navbar-underlay {
-	z-index:-1;
-	background-color: $vizsec_dark;
-	width:100%;
-	height: $navbar_height;
-	position:absolute;
-	top:0px;
-	left:0px;
+  z-index: -1;
+  background-color: $vizsec_dark;
+  width: 100%;
+  height: $navbar_height;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .navbar-nav {
-	padding-top:10px;
-	font-family: $font-family-sans-serif;
-	font-size:13pt;
+  padding-top: 10px;
+  font-family: $font-family-sans-serif;
+  font-size: 13pt;
 }
 
 .navbar-nav a {
-	color:#fff;
+  color: #fff;
 }
+
 .navbar-nav a:hover {
-	color:#bbb;
+  color: #bbb;
 }
 
 .nav > li:before {
-	content: none;
+  content: none;
 }
 
 .nav > li > a {
-	padding-left:8px;
-	padding-right:0px;
+  padding-left: 8px;
+  padding-right: 0px;
 }
 
-
 .ipc.name {
-	font-weight:bold;
+  font-weight: bold;
 }
 
 .ipc.affiliation {
-	font-weight:bold;
-	color: $vizsec_highlight;
+  font-weight: bold;
+  color: $vizsec_highlight;
 }
 
 .committee.name {
-	font-weight:bold;
+  font-weight: bold;
 }
 
 .committee.name > a {
-	color: $vizsec_dark;
+  color: $vizsec_dark;
 }
 
 .committee.affiliation {
-	color: $vizsec_highlight;
-	font-size:floor(($font-size-base * 0.85));
+  color: $vizsec_highlight;
+  font-size: floor(($font-size-base * 0.85));
 }
 
 .committee.role {
-	font-style:italic;
+  font-style: italic;
 }
 
 .vizsec-event-sidebar-list > dt {
-	width:60px;
+  width: 60px;
 }
 
 .vizsec-event-sidebar-list > dt > span {
-	width:50px;
-	display: inline-block;
+  width: 50px;
+  display: inline-block;
 }
 
 #viewallevents {
-	margin-top:0px;
-	margin-left:0px;
-	@media (min-width: $screen-sm) {
-		margin-left:70px;
-	}
+  margin-top: 0px;
+  margin-left: 0px;
+  @media (min-width: $screen-sm) {
+    margin-left: 70px;
+  }
 }
 
 .dl-horizontal-xs {
@@ -288,24 +284,24 @@ a:active:not(.btn) {
 }
 
 .dl-horizontal dd {
-	margin-left:0px;
-	@media (min-width: $screen-sm) {
-	    margin-left: 70px;
-	}
+  margin-left: 0px;
+  @media (min-width: $screen-sm) {
+    margin-left: 70px;
+  }
 }
 
 .vizsec-event-meta > dd {
-	border-bottom: 1px solid red;
-	padding:10px;
-	margin-bottom:10px;
+  border-bottom: 1px solid red;
+  padding: 10px;
+  margin-bottom: 10px;
 
-	@media (min-width: $screen-sm) {
-	    margin-left: 180px;
-	}
+  @media (min-width: $screen-sm) {
+    margin-left: 180px;
+  }
 }
 
 .vizsec-event-meta.title {
-	font-style:italic;
+  font-style: italic;
 }
 
 .vizsec-event-meta.location {
@@ -318,12 +314,12 @@ a:active:not(.btn) {
 }
 
 table.vizsec-cfp-dates {
-	margin-left: 40px;
+  margin-left: 40px;
 }
 
 table.vizsec-cfp-dates tr td:first-child {
-	padding-right:10px;
-	text-align:right;
+  padding-right: 10px;
+  text-align: right;
 }
 
 // program style (added by sjengle)
@@ -380,15 +376,15 @@ table.program td p {
 
 // for that awkward middle responsive navbar transition
 @media (max-width: $screen-md) and (min-width: $screen-sm) {
-	.jumbotron {
-		padding-top: 50px !important;
-	}
-	.navbar-nav {
-		margin-top: -15px;
-	}
-	.page-content-default {
-		margin-top: 65px;
-	}
+  .jumbotron {
+    padding-top: 50px !important;
+  }
+  .navbar-nav {
+    margin-top: -15px;
+  }
+  .page-content-default {
+    margin-top: 65px;
+  }
 }
 
 // sponsor lists
@@ -400,16 +396,18 @@ ul.media-list li.media {
   padding-left: 0em;
   text-indent: 0em;
   list-style-type: none;
+  float: left;
+  clear: both;
+  min-width: 210px;
+  max-width: 210px;
+  padding-top: 10px ;
+  border-top: solid 1px #e8e8e8;
 }
 
 ul.media-list li.media:before {
   content: none;
 }
 
-ul.media-list div.media-left {
-  min-width: 210px;
-  max-width: 210px;
-}
 
 ul.media-list li.media img.media-object {
   max-width: 200px;
@@ -417,11 +415,11 @@ ul.media-list li.media img.media-object {
 }
 
 .sidebar_supporters {
-	display: none;
+  display: none;
 }
 
 .sidebar_dates {
-	display: none;
+  display: none;
 }
 
 .sidebar_dates table th {

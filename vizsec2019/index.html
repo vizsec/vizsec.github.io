@@ -238,17 +238,9 @@ custom_css: cfp_sidebar
 <ul class="media-list">
 {% for supporter in site.data.y2019-supporters %}
 <li class="media">
-<div class="media-left">
 <a href="{{ supporter.link }}">
-<img class="media-object center-block" src="{{ supporter.image }}">
+<img class="media-object center-block" src="{{ supporter.image }}" title="{{ supporter.title }}">
 </a>
-</div>
-<div class="media-body">
-<h5 class="media-heading">{{ supporter.title }}</h5>
-
-{{ supporter.blurb }}
-<p> Open Position(s): {{ supporter.jobs }} </p>
-</div>
 </li>
 {% endfor %}
 </ul>
