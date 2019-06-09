@@ -232,24 +232,16 @@ custom_css: cfp_sidebar
 <p>Diane Staheli, MIT Lincoln Laboratory</p>
 
 
-<!--<a class="page-anchor" id="supporters"></a>-->
-<!--<h3>Supporters</h3>-->
+<a class="page-anchor" id="supporters"></a>
+<h3>Supporters</h3>
 
-<!--<ul class="media-list">-->
-<!--{% for supporter in site.data.y2018-supporters %}-->
-<!--<li class="media">-->
-<!--<div class="media-left">-->
-<!--<a href="{{ supporter.link }}">-->
-<!--<img class="media-object center-block" src="{{ supporter.image }}">-->
-<!--</a>-->
-<!--</div>-->
-<!--<div class="media-body">-->
-<!--<h5 class="media-heading">{{ supporter.title }}</h5>-->
-
-<!--{{ supporter.blurb }}-->
-<!--<p> Open Position(s): {{ supporter.jobs }} </p>-->
-<!--</div>-->
-<!--</li>-->
-<!--{% endfor %}-->
-<!--</ul>-->
+<ul class="media-list">
+{% for supporter in site.data.y2019-supporters %}
+<li class="media">
+<a href="{{ supporter.link }}">
+<img class="media-object center-block" src="{{ supporter.image }}" title="{{ supporter.title }}">
+</a>
+</li>
+{% endfor %}
+</ul>
 
