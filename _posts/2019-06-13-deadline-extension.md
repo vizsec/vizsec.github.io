@@ -1,5 +1,5 @@
 ---
-title:  "Submission deadline extended to June 19th"
+title:  "Submission Deadline Extended to June 19th, 2019"
 date:   2019-06-13 
 author: Awalin Sopan
 ---
