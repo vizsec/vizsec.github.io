@@ -195,7 +195,7 @@ custom_css: cfp_sidebar
 <h3>Important Dates</h3>
 
 <p>All deadlines are 5:00 PM PST.</p>
-<p><strong><strike>June 15 2019</strike> June 19 2019</strong> (Extended!) Submissions due for Full and Short Papers</p>
+<p><strike><strong>June 19 2019</strong> (Extended!) Submissions due for Full and Short Papers </strike> </p>
 <p><strong>July 19 2019</strong> Author notification for Full and Short Papers</p>
 <p><strong>August 10 2019</strong> Fast forward deadline</p>
 <p><strong>August 15 2019</strong> Camera ready submission and copyright forms</p>
@@ -238,15 +238,22 @@ custom_css: cfp_sidebar
 
 
 <a class="page-anchor" id="supporters"></a>
+<div>
 <h3>Supporters</h3>
 
 <ul class="media-list">
 {% for supporter in site.data.y2019-supporters %}
 <li class="media">
 <a href="{{ supporter.link }}">
-<img class="media-object center-block" src="{{ supporter.image }}" title="{{ supporter.title }}">
+<img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
 </a>
+    {% if supporter.job %}
+    <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
+    {% endif %}
+
+
 </li>
 {% endfor %}
 </ul>
+</div>
 
