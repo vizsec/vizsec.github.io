@@ -1,6 +1,6 @@
 ---
 title:  "VizSec 2018 Videos and Proceeding Available"
-date:   2019-08-19
+date:   2019-01-19
 author: Awalin Sopan
 ---
 
