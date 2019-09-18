@@ -1,5 +1,5 @@
 ---
-title:  "Program Schedule and Posters Announced for 2019"
+title:  "VizSec 2019: Program Schedule and Posters Announced"
 date: 2019-09-17
 author: Awalin Sopan
 ---
