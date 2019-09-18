@@ -8,7 +8,7 @@ author: Awalin Sopan
 
 <ul>
 <li>We are delighted to have <strong>Dr. Chris Oehmen</strong> from Pacific Northwest National Laboratory, giving our keynote address at 9:15am.<br/><br/></li>
-<li>Our best paper 'Security in Process: Visually Supported Triage Analysis in Industrial Process Data' by Anna-Pia Lohfink, Simon D Duque Anton, Hans Dieter Schotten, Heike Leitte and Christoph Garth
+<li>Our best paper <strong>Security in Process: Visually Supported Triage Analysis in Industrial Process Data</strong> by Anna-Pia Lohfink, Simon D Duque Anton, Hans Dieter Schotten, Heike Leitte and Christoph Garth
 will be presented at 10:10 am.<br/><br/></li>
 
 </ul>
