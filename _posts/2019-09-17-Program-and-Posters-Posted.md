@@ -4,7 +4,7 @@ date: 2019-09-17
 author: Awalin Sopan
 ---
 
-<p>The full program for VizSec 2019 has been posted!  Some highlights:</p>
+<p>The full program for VizSec 2019 has been posted! Some highlights:</p>
 
 <ul>
 <li>We are delighted to have <strong>Dr. Chris Oehmen</strong> from Pacific Northwest National Laboratory, giving our keynote address at 9:15am.<br/><br/></li>
