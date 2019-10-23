@@ -466,6 +466,21 @@ custom_css: cfp_sidebar
 </ul>
 
 
+
+<h4>Program Committee</h4>
+
+<ul>
+    {% for member in site.data.y2019-program_committee %}
+    <li>
+    <span class="committee name">
+      {{ member.name }}
+    </span>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+
 <h4>Steering Committee</h4>
 
 <p>Greg Conti, IronNet Cybersecurity</p>
