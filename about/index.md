@@ -30,3 +30,21 @@ Places that we have publicized in the past is documented on the <a href="/public
 	{% endfor %}
 	</ul>
 </div>
+
+#### Former Steering Committee Members
+<div class="steering-committee">
+	<ul >
+	{% for member in site.data.former_steering_committee %}
+		<li>
+			<span class="committee name">
+				{% if member.url %}
+					<a href="{{ member.url }}">{{ member.name }}</a>
+				{% else %}
+					{{ member.name }}
+				{% endif %}
+			</span><br>
+			<span class="committee affiliation">{{ member.affiliation }}</span>
+		</li>
+	{% endfor %}
+	</ul>
+</div>
