@@ -68,4 +68,22 @@ Generally, we try to setup a chain of succession with these roles so that Genera
 </p><p>
 <b>Web Chair:</b> The Web Chair is responsible for keeping the website up to date, including posting the call for papers, program, keynote information, accepted papers and posters, and committees. After the event, the Web Chair must also add a link to the proceedings and update the <a href="http://vizsec.org/past">http://vizsec.org/past</a> page.
 </p>
+
+#### Former Steering Committee Members
+<div class="steering-committee">
+	<ul >
+	{% for member in site.data.former_steering_committee %}
+		<li>
+			<span class="committee name">
+				{% if member.url %}
+					<a href="{{ member.url }}">{{ member.name }}</a>
+				{% else %}
+					{{ member.name }}
+				{% endif %}
+			</span><br>
+			<span class="committee affiliation">{{ member.affiliation }}</span>
+		</li>
+	{% endfor %}
+	</ul>
+
 </div>

@@ -1,32 +1,20 @@
-- name: Gregory Conti
-  affiliation: US Military Academy, West Point
-  url: http://www.rumint.org/gregconti/
+- name: Dustin Arendt
+  affiliation: Pacific Northwest National Laboratory
+  url: https://aim.pnnl.gov/staff/dr-dustin-arendt
 
-- name: Deborah Frincke
-  affiliation: US Department of Defense
+- name: Dan Best
+  affiliation: Herjavec Group
 
-- name: John Gerth
-  affiliation: Stanford University
-  url: http://graphics.stanford.edu/~gerth/
+- name: Sophie Engle
+  affiliation: University of San Francisco
 
-- name: John Goodall
-  affiliation: Oak Ridge National Laboratory
-  url: http://jgoodall.me/
+- name: Robert Gove
+  affiliation: Two Six Labs
+  url: https://www.twosixlabs.com/author/robert-gove/
 
 - name: Lane Harrison
   affiliation: Worcester Polytechnic Institute
   url: http://web.cs.wpi.edu/~ltharrison/
 
-- name: Kwan-Liu Ma
-  affiliation: University of California at Davis
-  url: http://www.cs.ucdavis.edu/~ma/
-
-- name: Kirsten Whitley
-  affiliation: US Department of Defense
-
-- name: Sophie Engle
-  affiliation: University of San Francisco
-
 - name: Diane Staheli
   affiliation: MIT Lincoln Laboratory
-
