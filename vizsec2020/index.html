@@ -203,6 +203,29 @@ custom_css: cfp_sidebar
         <p><strong>October 28 2020</strong> VizSec 2020</p></p>
     </div>
 
+
+
+
+    <h3>Committees</h3>
+
+    <h4>Organizing Committee</h4>
+    <ul>
+        {% for member in site.data.y2020-organizing_committee %}
+        <li>
+    <span class="committee name">
+      {% if member.url %}
+        <a href="{{ member.url }}">{{ member.name }}</a>,
+      {% else %}
+        {{ member.name }},
+      {% endif %}
+    </span>
+            <span class="committee role">{{ member.role }}</span><br>
+            <span class="committee affiliation">{{ member.affiliation }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+
     <a class="page-anchor" id="supporters"></a>
     <div>
         <h3>Supporters</h3>
