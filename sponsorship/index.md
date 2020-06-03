@@ -6,6 +6,7 @@ The IEEE VizSec Symposium is inviting support from industry, academia, and gover
 
 <br/>
 All support levels will receive the following benefit:
+
 * **Exposure** — your organization’s logo will be prominently displayed at VizSec, on the VizSec web site, on social media, and in any conference materials.
  
 <br/>
