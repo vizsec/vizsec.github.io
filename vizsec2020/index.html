@@ -226,10 +226,25 @@ custom_css: cfp_sidebar
 </ul>
 
 
+
 <a class="page-anchor" id="supporters"></a>
 <div>
     <h3>Supporters</h3>
-    <p>TBD</p>
+
+    <ul class="media-list">
+        {% for supporter in site.data.y2020-supporters %}
+        <li class="media">
+            <a href="{{ supporter.link }}">
+                <img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
+            </a>
+            {% if supporter.job %}
+            <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
+            {% endif %}
+
+
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 
 
