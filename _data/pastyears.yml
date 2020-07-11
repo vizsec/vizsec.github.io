@@ -3,6 +3,7 @@
   with: <a href='http://ieeevis.org/year/2019/welcome'>IEEE VIS</a>
   location: Vancouver, Canada
   date: October 23
+  acceptance: 11/26 (42%)
   website: /vizsec2019/
 
 - year: 2018
@@ -10,7 +11,7 @@
   with: <a href='http://ieeevis.org/year/2018/welcome'>IEEE VIS</a>
   location: Berlin, Germany
   date: October 22
-  acceptance: (35%)
+  acceptance: 11/31 (35%)
   website: /vizsec2018/
   proceedings: https://ieeexplore.ieee.org/xpl/conhome/8706256/proceeding
 #  proceedings: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8052583
