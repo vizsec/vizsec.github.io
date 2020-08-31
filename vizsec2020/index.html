@@ -281,7 +281,10 @@ custom_css: cfp_sidebar
             <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
             {% endif %}
 
-
+            {% if supporter.job2 %}
+            <label>Open Position: <a href="{{ supporter.job2_url }}">{{ supporter.job2 }}</a></label>
+            {% endif %}
+            
         </li>
         {% endfor %}
     </ul>
