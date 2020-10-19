@@ -5,9 +5,11 @@ custom_css: show_past_years
 
 <h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>VizSec 2020</h2>
 
-VizSec 2020 will be held in conjunction with <a href="http://ieeevis.org/">IEEE VIS</a>.
+The Symposium on Visualization for Cyber Security (VizSec) is a forum that brings together researchers and practitioners from academia, government, and industry to address the needs of the cyber security community through new and insightful
+visualization and analysis techniques. VizSec provides an excellent venue for fostering greater exchange and new collaborations on a broad range of security
+and privacy related topics.  
 
-<p>Learn more about the event on the <a class="btn btn-primary btn-sm pull-left" href="/vizsec2020" role="button">VizSec 2020 event page</a>.</p> <br/><br/><br/>
+<p>VizSec 2020 will be held in conjunction with <a href="http://ieeevis.org/">IEEE VIS</a>. Learn more about the event on the <a class="btn btn-primary btn-sm pull-left" href="/vizsec2020" role="button">VizSec 2020 event page</a>.</p> <br/><br/><br/>
 
 ### Proceedings Browser
 
