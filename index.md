@@ -7,7 +7,7 @@ custom_css: show_past_years
 
 VizSec 2020 will be held in conjunction with <a href="http://ieeevis.org/">IEEE VIS</a>.
 
-<p><a class="btn btn-primary btn-lg pull-left" href="/vizsec2020" role="button">Learn more &raquo;</a></p> <br/><br/><br/>
+<p>Learn more about the event on the <a class="btn btn-primary btn-sm pull-left" href="/vizsec2020" role="button">VizSec 2020 event page</a>.</p> <br/><br/><br/>
 
 ### Proceedings Browser
 
