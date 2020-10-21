@@ -9,7 +9,7 @@ The Symposium on Visualization for Cyber Security (VizSec) is a forum that bring
 visualization and analysis techniques. VizSec provides an excellent venue for fostering greater exchange and new collaborations on a broad range of security
 and privacy related topics.  
 
-<p>VizSec 2020 will be held in conjunction with <a href="http://ieeevis.org/">IEEE VIS</a>. Learn more about the event on the <a href="/vizsec2020">VizSec 2020 event page</a>.</p> <br/><br/><br/>
+<p>VizSec 2020 will be held on <strong>October 28 2020</strong>, in conjunction with <a href="http://ieeevis.org/">IEEE VIS</a>. Learn more about the event on the <a href="/vizsec2020">VizSec 2020 event page</a>.</p> <br/><br/><br/>
 
 ### Proceedings Browser
 
