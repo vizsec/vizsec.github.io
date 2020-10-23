@@ -5,7 +5,7 @@ custom_css: show_past_years
 
 <h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>VizSec 2020</h2>
 
-The Symposium on Visualization for Cyber Security (VizSec) is a forum that brings together researchers and practitioners from academia, government, and industry to address the needs of the cyber security community through new and insightful
+The IEEE Symposium on Visualization for Cyber Security (VizSec) is a forum that brings together researchers and practitioners from academia, government, and industry to address the needs of the cyber security community through new and insightful
 visualization and analysis techniques. VizSec provides an excellent venue for fostering greater exchange and new collaborations on a broad range of security
 and privacy related topics.  
 

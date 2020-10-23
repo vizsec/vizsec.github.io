@@ -399,7 +399,7 @@ ul.media-list li.media {
   float: left;
   clear: both;
   min-width: 210px;
-  padding-top: 10px ;
+  padding-top: 10px;
   border-top: solid 1px #e8e8e8;
 }
 
@@ -430,4 +430,29 @@ ul.media-list li.media img.media-object {
 .sidebar_supporters img {
   max-width: 200px;
   max-height: 100px;
+}
+
+
+.program2020 {
+
+}
+
+
+div.slot {
+  clear: both;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+div.session-time {
+  width: 20%;
+  float: left;
+}
+
+
+div.session-title {
+
+  width: 80%;
+  float: left
 }
