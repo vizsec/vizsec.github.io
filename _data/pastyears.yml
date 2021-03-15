@@ -1,3 +1,11 @@
+- year: 2020
+  title: 17th IEEE Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2020/welcome'>IEEE VIS</a>
+  location: Salt Lake City, USA
+  date: October 28
+  acceptance:
+  website: /vizsec2020/
+
 - year: 2019
   title: 16th IEEE Symposium on Visualization for Cyber Security
   with: <a href='http://ieeevis.org/year/2019/welcome'>IEEE VIS</a>
