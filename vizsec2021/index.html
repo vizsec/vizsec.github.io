@@ -1,0 +1,96 @@
+---
+layout: default
+custom_css: cfp_sidebar
+---
+
+<h2><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>VizSec 2021</h2>
+
+<h3>Welcome to 18th IEEE Symposium on Visualization for Cyber Security</h3>
+
+<p>VizSec 2021 will be held in conjunction with <a href="http://ieeevis.org/">IEEE
+    VIS</a>. VizSec brings together
+    researchers and practitioners in information
+    visualization and security to address
+    the specific needs of the cyber security community through new and insightful visualization techniques.</p>
+<p>To register for VizSec, see the <a
+        href="http://ieeevis.org/year/2021/info/registration/conference-registration">IEEE VIS registration page</a>.
+</p>
+
+
+<p><em>Questions?</em> Please email <a href="mailto:chair@vizsec.org">chair@vizsec.org</a> for questions regarding
+    VizSec 2021.</p>
+
+<a class="page-anchor" id="program"></a>
+<h3>Program</h3>
+
+<p>Coming soon...</p>
+
+<a class="page-anchor" id="cfp"></a>
+
+<a class="page-anchor" id="submissions"></a>
+<div>
+    <h3>Important Dates</h3>
+
+    <p>Coming soon...</p>
+</div>
+
+
+<h3>Committees</h3>
+
+<h4>Organizing Committee</h4>
+<ul>
+    {% for member in site.data.y2021-organizing_committee %}
+    <li>
+    <span class="committee name">
+      {% if member.url %}
+        <a href="{{ member.url }}">{{ member.name }}</a>,
+      {% else %}
+        {{ member.name }},
+      {% endif %}
+    </span>
+        <span class="committee role">{{ member.role }}</span><br>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<h4>Program Committee</h4>
+
+<ul>
+    {% for member in site.data.y2021-program_committee %}
+    <li>
+    <span class="committee name">
+      {{ member.name }}
+    </span>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<a class="page-anchor" id="supporters"></a>
+<div>
+    <h3>Supporters</h3>
+
+    <ul class="media-list">
+        {% for supporter in site.data.y2021-supporters %}
+        <li class="media">
+            <a href="{{ supporter.link }}">
+                <img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
+            </a>
+            {% if supporter.job %}
+            <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
+            {% endif %}
+
+            {% if supporter.job2 %}
+            <label>Open Position: <a href="{{ supporter.job2_url }}">{{ supporter.job2 }}</a></label>
+            {% endif %}
+
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+
