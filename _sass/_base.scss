@@ -456,3 +456,29 @@ div.session-title {
   width: 80%;
   float: left
 }
+
+.underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.underline:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: 0;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: black;
+
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
