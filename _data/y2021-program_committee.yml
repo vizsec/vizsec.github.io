@@ -1,8 +1,8 @@
 - name: Marco Angelini
-  affiliation:
+  affiliation: University of Rome "La Sapienza"
 
 - name: Kenneth Alperin
-  affiliation:
+  affiliation: MIT Lincoln Lab
 
 - name: Zahra Anvari
   affiliation:
@@ -14,61 +14,61 @@
   affiliation:
 
 - name: Fabian Böhm
-  affiliation:
+  affiliation: Universitat Regensburg
 
 - name: Francisco Maria Calisto
   affiliation:
 
 - name: Siming Chen
-  affiliation:
+  affiliation: Fraunhofer IAIS, University of Bonn
 
-- name: Robertas Damasevicius
-  affiliation:
+- name: Robertas Damaševičiu
+  affiliation: Department of Computer Science Kaunas, University of Technology Kaunas
 
 - name: Sophie Engle
-  affiliation:
+  affiliation: University of San Francisco
 
 - name: Carie Gates
-  affiliation:
+  affiliation: Securelytix
 
 - name: John Gerth
-  affiliation:
+  affiliation: Stanford University
 
 - name: Steven Gomez
-  affiliation:
+  affiliation: MIT Lincoln Laboratory
 
 - name: John Goodall
-  affiliation:
+  affiliation: Oak Ridge National Laboratory
 
 - name: Robert Gove
-  affiliation:
+  affiliation: Two Six Labs
 
 - name: Denis Gracanin
   affiliation:
 
 - name: Lane Harrison
-  affiliation:
+  affiliation: Worcester Polytechnic Institute
 
 - name: Benjamin Karer
   affiliation:
 
 - name: Jörn Kohlhammer
-  affiliation:
+  affiliation: Fraunhofer IGD
 
 - name: Adarsh Kyadige
-  affiliation:
+  affiliation: Sophos
 
 - name: Phil Legg
-  affiliation:
+  affiliation: University of the West of England
 
 - name: Laetitia Leichtnam
-  affiliation:
+  affiliation: CentraleSupélec
 
 - name: Frédéric Majorczyk
-  affiliation:
+  affiliation: DGA-MI
 
 - name: Raffael Marty
-  affiliation:
+  affiliation: Forcepoint
 
 - name: Christos Mousas
   affiliation:
@@ -76,35 +76,35 @@
 - name: Minh Nguyen
   affiliation:
 
-- name: Radek Oslejsek
-  affiliation:
+- name: Radek Ošlejšek
+  affiliation: Masaryk University, Brno
 
 - name: Rajkumar P.V.
   affiliation:
 
 - name: Dipakkumar Pravin
-  affiliation:
+  affiliation: University of North Texas
 
 - name: Noëlle Rakotondravony
-  affiliation:
+  affiliation: Universität Passau
 
 - name: Rosa Romero-Gómez
-  affiliation:
+  affiliation: Uncharted Field Services Corporation
 
 - name: Dennis Ross
-  affiliation:
+  affiliation: MIT Lincoln Laboratory
 
 - name: Awalin Sopan
-  affiliation:
+  affiliation: FireEye inc
 
 - name: Diane Staheli
-  affiliation:
+  affiliation: MIT Lincoln Laboratory
 
 - name: David Trimm
-  affiliation:
+  affiliation: U.S. Department of Defense
 
 - name: Xumeng Wang
-  affiliation:
+  affiliation: Zhejiang University
 
 - name: Ying Zhu
   affiliation:
