@@ -7,8 +7,14 @@
 - name: Zahra Anvari
   affiliation:
 
+- name: Dustin Arendt
+  affiliation: Pacific Northwest National Laboratory
+
 - name: Donia Badawood
   affiliation:
+
+- name: Daniel Best
+  affiliation: Pacific Northwest National Laboratory
 
 - name: Kaustav Bhattacharjee
   affiliation:
@@ -21,6 +27,12 @@
 
 - name: Siming Chen
   affiliation: Fraunhofer IAIS, University of Bonn
+
+- name: Ann Cox
+  affiliation: Cyber Security Division
+
+- name: Aritra Dasgupta
+  affiliation: New Jersey Institute of Technology
 
 - name: Robertas Damaševičiu
   affiliation: Department of Computer Science Kaunas, University of Technology Kaunas
@@ -85,6 +97,9 @@
 - name: Dipakkumar Pravin
   affiliation: University of North Texas
 
+- name: Nicolas Prigent
+  affiliation: LSTI
+
 - name: Noëlle Rakotondravony
   affiliation: Universität Passau
 
@@ -94,11 +109,23 @@
 - name: Dennis Ross
   affiliation: MIT Lincoln Laboratory
 
+- name: Giuseppe Santucci
+  affiliation: University of Rome "La Sapienza"
+
+- name: Graig Sauer
+  affiliation: U.S. Department of Defense
+
+- name: Christopher Simpson
+  affiliation: National University
+
 - name: Awalin Sopan
   affiliation: FireEye inc
 
 - name: Diane Staheli
   affiliation: MIT Lincoln Laboratory
+
+- name: Sébastien Tricaud
+  affiliation: Splunk
 
 - name: David Trimm
   affiliation: U.S. Department of Defense
