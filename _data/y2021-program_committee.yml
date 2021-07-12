@@ -4,26 +4,14 @@
 - name: Kenneth Alperin
   affiliation: MIT Lincoln Lab
 
-- name: Zahra Anvari
-  affiliation:
-
 - name: Dustin Arendt
   affiliation: Pacific Northwest National Laboratory
-
-- name: Donia Badawood
-  affiliation:
 
 - name: Daniel Best
   affiliation: Pacific Northwest National Laboratory
 
-- name: Kaustav Bhattacharjee
-  affiliation:
-
 - name: Fabian Böhm
   affiliation: Universitat Regensburg
-
-- name: Francisco Maria Calisto
-  affiliation:
 
 - name: Siming Chen
   affiliation: Fraunhofer IAIS, University of Bonn
@@ -55,14 +43,8 @@
 - name: Robert Gove
   affiliation: Two Six Labs
 
-- name: Denis Gracanin
-  affiliation:
-
 - name: Lane Harrison
   affiliation: Worcester Polytechnic Institute
-
-- name: Benjamin Karer
-  affiliation:
 
 - name: Jörn Kohlhammer
   affiliation: Fraunhofer IGD
@@ -82,17 +64,8 @@
 - name: Raffael Marty
   affiliation: Forcepoint
 
-- name: Christos Mousas
-  affiliation:
-
-- name: Minh Nguyen
-  affiliation:
-
 - name: Radek Ošlejšek
   affiliation: Masaryk University, Brno
-
-- name: Rajkumar P.V.
-  affiliation:
 
 - name: Dipakkumar Pravin
   affiliation: University of North Texas
@@ -132,6 +105,3 @@
 
 - name: Xumeng Wang
   affiliation: Zhejiang University
-
-- name: Ying Zhu
-  affiliation:
