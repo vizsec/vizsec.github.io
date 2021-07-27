@@ -80,7 +80,8 @@ custom_css: cfp_sidebar
 <p>Submissions including tests and evaluations of the proposed tools and techniques are also considered particularly desirable.
 If possible, making the data used for the tests available will also be considered positively.
 If you do not have real-world data to demonstrate your visualization, you may be interested in looking at the <a href="https://vizsec.org/data/">VizSec dataset links</a>.
-Previous VizSec papers may be found on the <a href="https://vizsec.dbvis.de/">VizSec Papers Browser</a> and on IEEE Xplore.
+Please see <a href="https://vizsec.org/past/">past years</a> proceedings and websites to see the quality and examples of previous submissions.
+Previous VizSec papers may also be found on the <a href="https://vizsec.dbvis.de/">VizSec Papers Browser</a> and on IEEE Xplore.
 </p>
 <h4>Short Papers</h4>
 <p>
@@ -214,15 +215,15 @@ to a journal or a conference with proceedings. Authors of accepted papers must g
     <ul class="media-list">
         {% for supporter in site.data.y2021-supporters %}
         <li class="media">
-            <a href="{{ supporter.link }}">
+            <a href="{{ supporter.link }}" target=”_blank”>
                 <img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
             </a>
             {% if supporter.job %}
-            <label>Open Position: <a href="{{ supporter.job_url }}">{{ supporter.job }}</a></label>
+            <label>Open Position: <a href="{{ supporter.job_url }}" target=”_blank”>{{ supporter.job }}</a></label>
             {% endif %}
 
             {% if supporter.job2 %}
-            <label>Open Position: <a href="{{ supporter.job2_url }}">{{ supporter.job2 }}</a></label>
+            <label>Open Position: <a href="{{ supporter.job2_url }}" target=”_blank”>{{ supporter.job2 }}</a></label>
             {% endif %}
 
         </li>
