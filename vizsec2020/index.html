@@ -488,6 +488,23 @@ custom_css: cfp_sidebar
     {% endfor %}
 </ul>
 
+<h4>Steering Committee</h4>
+
+<ul>
+    {% for member in site.data.y2020-steering_committee %}
+    <li>
+    <span class="committee name">
+        {% if member.url %}
+            <a href="{{ member.url }}" target="_blank">{{ member.name }}</a>
+            {% else %}
+                {{ member.name }}
+        {% endif %}
+    </span>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
 
 <a class="page-anchor" id="supporters"></a>
 <div>

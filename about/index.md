@@ -15,11 +15,11 @@ Places that we have publicized in the past is documented on [the publicity page]
 
 <div class="steering-committee">
 	<ul >
-	{% for member in site.data.steering_committee %}
+	{% for member in site.data.y2021-steering_committee %}
 		<li>
 			<span class="committee name">
 				{% if member.url %}
-					<a href="{{ member.url }}">{{ member.name }}</a>
+					<a href="{{ member.url }}" target="_blank">{{ member.name }}</a>
 				{% else %}
 					{{ member.name }}
 				{% endif %}

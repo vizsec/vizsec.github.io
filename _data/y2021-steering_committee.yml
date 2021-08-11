@@ -1,6 +1,3 @@
-- name: Jörn Kohlhammer
-  affiliation: Fraunhofer IGD
-  url: https://www.igd.fraunhofer.de/en/institute/about-us/contact-persons/jorn-kohlhammer
 
 - name: Dustin Arendt
   affiliation: Pacific Northwest National Laboratory
@@ -15,6 +12,10 @@
 - name: Robert Gove
   affiliation: Two Six Labs
   url: https://www.twosixlabs.com/author/robert-gove/
+
+- name: Jörn Kohlhammer
+  affiliation: Fraunhofer IGD
+  url: https://www.igd.fraunhofer.de/en/institute/about-us/contact-persons/jorn-kohlhammer
 
 - name: Diane Staheli
   affiliation: MIT Lincoln Laboratory
