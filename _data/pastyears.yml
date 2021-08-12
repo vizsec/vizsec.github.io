@@ -3,8 +3,9 @@
   with: <a href='http://ieeevis.org/year/2020/welcome'>IEEE VIS</a>
   location: Virtual Conference
   date: October 28
-  acceptance:
+  acceptance: 6/12 (50%)
   website: /vizsec2020/
+  proceedings: https://ieeexplore.ieee.org/xpl/conhome/9347390/proceeding
 
 - year: 2019
   title: 16th IEEE Symposium on Visualization for Cyber Security
@@ -13,6 +14,7 @@
   date: October 23
   acceptance: 11/26 (42%)
   website: /vizsec2019/
+  proceedings: https://ieeexplore.ieee.org/xpl/conhome/9154509/proceeding
 
 - year: 2018
   title: 15th IEEE Symposium on Visualization for Cyber Security

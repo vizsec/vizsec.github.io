@@ -17,7 +17,7 @@ layout: default
 {% for event in site.data.pastyears %}
 		<dt>
 			<h4>VizSec {{ event.year }}</h4>
-			<a href="{{ event.proceedings}}">Proceedings</a><br>
+			<a href="{{ event.proceedings}}" target="_blank">Proceedings</a><br>
 			{% if event.website %}
 				<a href="{{event.website}}">Website</a>
 			{% endif %}
