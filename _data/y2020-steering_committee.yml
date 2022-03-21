@@ -1,10 +1,6 @@
-- name: Jörn Kohlhammer
-  affiliation: Fraunhofer IGD
-  url: https://www.igd.fraunhofer.de/en/institute/about-us/contact-persons/jorn-kohlhammer
 
 - name: Dustin Arendt
   affiliation: Pacific Northwest National Laboratory
-  url: https://aim.pnnl.gov/staff/dr-dustin-arendt
 
 - name: Dan Best
   affiliation: Herjavec Group
@@ -14,11 +10,9 @@
 
 - name: Robert Gove
   affiliation: Two Six Labs
-  url: https://www.twosixlabs.com/author/robert-gove/
 
 - name: Lane Harrison
   affiliation: Worcester Polytechnic Institute
-  url: http://web.cs.wpi.edu/~ltharrison/
 
 - name: Diane Staheli
   affiliation: MIT Lincoln Laboratory

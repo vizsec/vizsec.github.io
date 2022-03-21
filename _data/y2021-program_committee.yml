@@ -1,110 +1,107 @@
 - name: Marco Angelini
-  affiliation:
+  affiliation: University of Rome "La Sapienza"
 
 - name: Kenneth Alperin
-  affiliation:
+  affiliation: MIT Lincoln Lab
 
-- name: Zahra Anvari
-  affiliation:
+- name: Dustin Arendt
+  affiliation: Pacific Northwest National Laboratory
 
-- name: Donia Badawood
-  affiliation:
-
-- name: Kaustav Bhattacharjee
-  affiliation:
+- name: Daniel Best
+  affiliation: Pacific Northwest National Laboratory
 
 - name: Fabian Böhm
-  affiliation:
-
-- name: Francisco Maria Calisto
-  affiliation:
+  affiliation: Universitat Regensburg
 
 - name: Siming Chen
-  affiliation:
+  affiliation: Fraunhofer IAIS, University of Bonn
 
-- name: Robertas Damasevicius
-  affiliation:
+- name: Ann Cox
+  affiliation: Cyber Security Division
+
+- name: Aritra Dasgupta
+  affiliation: New Jersey Institute of Technology
+
+- name: Robertas Damaševičiu
+  affiliation: Department of Computer Science Kaunas, University of Technology Kaunas
 
 - name: Sophie Engle
-  affiliation:
+  affiliation: University of San Francisco
 
 - name: Carie Gates
-  affiliation:
+  affiliation: Securelytix
 
 - name: John Gerth
-  affiliation:
+  affiliation: Stanford University
 
 - name: Steven Gomez
-  affiliation:
+  affiliation: MIT Lincoln Laboratory
 
 - name: John Goodall
-  affiliation:
+  affiliation: Oak Ridge National Laboratory
 
 - name: Robert Gove
-  affiliation:
-
-- name: Denis Gracanin
-  affiliation:
+  affiliation: Two Six Technologies
 
 - name: Lane Harrison
-  affiliation:
-
-- name: Benjamin Karer
-  affiliation:
+  affiliation: Worcester Polytechnic Institute
 
 - name: Jörn Kohlhammer
-  affiliation:
+  affiliation: Fraunhofer IGD
 
 - name: Adarsh Kyadige
-  affiliation:
+  affiliation: Sophos
 
 - name: Phil Legg
-  affiliation:
+  affiliation: University of the West of England
 
 - name: Laetitia Leichtnam
-  affiliation:
+  affiliation: CentraleSupélec
 
 - name: Frédéric Majorczyk
-  affiliation:
+  affiliation: DGA-MI
 
 - name: Raffael Marty
-  affiliation:
+  affiliation: Forcepoint
 
-- name: Christos Mousas
-  affiliation:
-
-- name: Minh Nguyen
-  affiliation:
-
-- name: Radek Oslejsek
-  affiliation:
-
-- name: Rajkumar P.V.
-  affiliation:
+- name: Radek Ošlejšek
+  affiliation: Masaryk University, Brno
 
 - name: Dipakkumar Pravin
-  affiliation:
+  affiliation: University of North Texas
+
+- name: Nicolas Prigent
+  affiliation: LSTI
 
 - name: Noëlle Rakotondravony
-  affiliation:
+  affiliation: Worcester Polytechnic Institute
 
 - name: Rosa Romero-Gómez
-  affiliation:
+  affiliation: Uncharted Field Services Corporation
 
 - name: Dennis Ross
-  affiliation:
+  affiliation: MIT Lincoln Laboratory
+
+- name: Giuseppe Santucci
+  affiliation: University of Rome "La Sapienza"
+
+- name: Graig Sauer
+  affiliation: U.S. Department of Defense
+
+- name: Christopher Simpson
+  affiliation: National University
 
 - name: Awalin Sopan
-  affiliation:
+  affiliation: Sophos
 
 - name: Diane Staheli
-  affiliation:
+  affiliation: MIT Lincoln Laboratory
+
+- name: Sébastien Tricaud
+  affiliation: Splunk
 
 - name: David Trimm
-  affiliation:
+  affiliation: U.S. Department of Defense
 
 - name: Xumeng Wang
-  affiliation:
-
-- name: Ying Zhu
-  affiliation:
+  affiliation: Zhejiang University
