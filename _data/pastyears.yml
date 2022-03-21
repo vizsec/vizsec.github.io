@@ -1,3 +1,12 @@
+- year: 2021
+  title: 18th IEEE Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2021/welcome'>IEEE VIS</a>
+  location: Virtual Conference
+  date: October 27
+  acceptance:
+  website: /vizsec2021/
+  proceedings: https://ieeexplore.ieee.org/xpl/conhome/9629354/proceeding
+
 - year: 2020
   title: 17th IEEE Symposium on Visualization for Cyber Security
   with: <a href='http://ieeevis.org/year/2020/welcome'>IEEE VIS</a>
