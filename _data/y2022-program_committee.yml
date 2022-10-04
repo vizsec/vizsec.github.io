@@ -2,7 +2,7 @@
   affiliation: University of Denver
 
 - name: Kenneth Alperin
-  affiliation: MIT Lincoln Lab
+  affiliation: MIT Lincoln Laboratory
 
 - name: Marco Angelini
   affiliation: University of Rome "La Sapienza"
@@ -11,16 +11,19 @@
   affiliation: Pacific Northwest National Laboratory
 
 - name: Fabian Böhm
-  affiliation: Universitat Regensburg
+  affiliation: Universität Regensburg
+
+- name: Chris Bryan
+  affiliation: Arizona State University
 
 - name: Siming Chen
-  affiliation: Fraunhofer IAIS, University of Bonn
+  affiliation: Fudan University
 
 - name: Ann Cox
-  affiliation: Cyber Security Division
+  affiliation: DHS Science & Technology Directorate, Cyber Security Division
 
 - name: Robertas Damaševičiu
-  affiliation: Department of Computer Science Kaunas, University of Technology Kaunas
+  affiliation: Kaunas University of Technology
 
 - name: Sanchari Das
   affiliation: University of Denver
@@ -44,7 +47,7 @@
   affiliation: MIT Lincoln Laboratory
 
 - name: Robert Gove
-  affiliation: Two Six Technologies
+  affiliation: CrowdStrike
 
 - name: Christopher Humphries
   affiliation: INRIA
@@ -62,7 +65,7 @@
   affiliation: Worcester Polytechnic Institute
 
 - name: Rosa Romero-Gómez
-  affiliation: Uncharted Field Services Corporation
+  affiliation: Uncharted Software
 
 - name: Giuseppe Santucci
   affiliation: University of Rome "La Sapienza"
@@ -74,7 +77,7 @@
   affiliation: National University
 
 - name: Sébastien Tricaud
-  affiliation: Splunk
+  affiliation: Devo
 
 - name: David Trimm
   affiliation: U.S. Department of Defense
@@ -83,4 +86,4 @@
   affiliation: Fraunhoer IGD
 
 - name: Xumeng Wang
-  affiliation: Zhejiang University
+  affiliation: Nankai University
