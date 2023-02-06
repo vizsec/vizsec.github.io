@@ -9,7 +9,7 @@ The IEEE Symposium on Visualization for Cyber Security (VizSec) is a forum that 
 visualization and analysis techniques. VizSec provides an excellent venue for fostering greater exchange and new collaborations on a broad range of security
 and privacy related topics.  
 
-<p>VizSec 2022 will be held on <strong>19th of October 2022</strong>, in conjunction with <a href="http://ieeevis.org/">IEEE VIS</a>. Learn more about the event on the <a href="/vizsec2022">VizSec 2022 event page</a>.</p> <br/><br/><br/>
+<p>VizSec 2023 will be held on <strong>25th of October 2023</strong>, in conjunction with <a href="http://ieeevis.org/">IEEE VIS</a>. Learn more about the event on the <a href="/vizsec2023">VizSec 2023 event page</a>.</p> <br/><br/><br/>
 
 ### Proceedings Browser
 

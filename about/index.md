@@ -15,7 +15,7 @@ Places that we have publicized in the past is documented on [the publicity page]
 
 <div class="steering-committee">
 	<ul >
-	{% for member in site.data.y2021-steering_committee %}
+	{% for member in site.data.y2023-steering_committee %}
 		<li>
 			<span class="committee name">
 				{% if member.url %}

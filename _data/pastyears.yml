@@ -1,9 +1,18 @@
+- year: 2022
+  title: 19th IEEE Symposium on Visualization for Cyber Security
+  with: <a href='http://ieeevis.org/year/2022/welcome'>IEEE VIS</a>
+  location: Hybrid Conference, Oklahoma City, USA
+  date: October 19
+  acceptance: 5/13 (38%)
+  website: /vizsec2022/
+  proceedings: https://ieeexplore.ieee.org/xpl/conhome/9941351/proceeding
+
 - year: 2021
   title: 18th IEEE Symposium on Visualization for Cyber Security
   with: <a href='http://ieeevis.org/year/2021/welcome'>IEEE VIS</a>
   location: Virtual Conference
   date: October 27
-  acceptance:
+  acceptance: 10/21 (47%)
   website: /vizsec2021/
   proceedings: https://ieeexplore.ieee.org/xpl/conhome/9629354/proceeding
 

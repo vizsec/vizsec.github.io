@@ -1,0 +1,111 @@
+---
+layout: default
+custom_css: cfp_sidebar
+---
+
+<h2 xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"><img alt="Magnifying glass" src="/assets/img/branding_magnifier.png" class="header-magnifier"/>VizSec 2023</h2>
+
+<h3>Welcome to 20th IEEE Symposium on Visualization for Cyber Security</h3>
+
+<p>VizSec 2023 will be held in conjunction with  <a href="http://ieeevis.org/">IEEE
+    VIS Conference</a> Melbourne, Australia. VizSec brings together
+    researchers and practitioners in information
+    visualization and security to address
+    the specific needs of the cyber security community through new and insightful visualization techniques.</p>
+<p>To register for VizSec, see the <a
+        href="http://ieeevis.org/year/2023/info/registration/conference-registration">IEEE VIS registration page</a>.
+</p>
+
+
+<p><em>Questions?</em> Please email <a href="mailto:chair@vizsec.org">chair@vizsec.org</a> for questions regarding
+    VizSec 2023.</p>
+
+<a class="page-anchor" id="cfp"></a>
+<h3>VizSec 2022 Call for Papers</h3>
+<p>TBA</p>
+
+
+<a class="page-anchor" id="submissions"></a>
+<div>
+    <h3>Important Dates</h3>
+    <p>TBA</p>
+
+</div>
+
+
+<h3>Committees</h3>
+
+<h4>Organizing Committee</h4>
+<ul>
+    {% for member in site.data.y2023-organizing_committee %}
+    <li>
+    <span class="committee name">
+      {% if member.url %}
+        <a href="{{ member.url }}" target="_blank">{{ member.name }}</a>,
+      {% else %}
+        {{ member.name }},
+      {% endif %}
+    </span>
+        <span class="committee role">{{ member.role }}</span><br>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<h4>Program Committee</h4>
+
+<ul>
+    {% for member in site.data.y2023-program_committee %}
+    <li>
+    <span class="committee name">
+      {{ member.name }}
+    </span>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+<h4>Steering Committee</h4>
+
+<ul>
+    {% for member in site.data.y2023-steering_committee %}
+    <li>
+    <span class="committee name">
+        {% if member.url %}
+            <a href="{{ member.url }}" target="_blank">{{ member.name }}</a>
+            {% else %}
+                {{ member.name }}
+        {% endif %}
+    </span>
+        <span class="committee affiliation">{{ member.affiliation }}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<a class="page-anchor" id="supporters"></a>
+<div>
+    <h3>Supporters</h3>
+
+    <ul class="media-list">
+        {% for supporter in site.data.y2023-supporters %}
+        <li class="media">
+            <a href="{{ supporter.link }}" target=”_blank”>
+                <img class="media-object" src="{{ supporter.image }}" title="{{ supporter.title }}">
+            </a>
+            {% if supporter.job %}
+            <label>Open Position: <a href="{{ supporter.job_url }}" target=”_blank”>{{ supporter.job }}</a></label>
+            {% endif %}
+
+            {% if supporter.job2 %}
+            <label>Open Position: <a href="{{ supporter.job2_url }}" target=”_blank”>{{ supporter.job2 }}</a></label>
+            {% endif %}
+
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+
